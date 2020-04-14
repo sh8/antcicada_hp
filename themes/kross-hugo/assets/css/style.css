@@ -585,8 +585,8 @@ textarea.form-control {
     margin-bottom: 20px;
   }
 
-  .news-list li p {
-    font-size: 17px;
+  .news-list li a {
+    font-size: 15px;
     display: block;
     margin-bottom: 0;
     text-align: center;

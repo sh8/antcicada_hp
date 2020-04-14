@@ -1,0 +1,211 @@
+# default configuration
+baseURL = "http://example.org/"
+languageCode = "ja-jp"
+theme = "kross-hugo"
+title = "JOIN EARTH 公式ホームページ"
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+
+
+# menu
+[[menu.main]]
+URL = "service"
+name = "事業内容"
+weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "ANTCICADAについて"
+weight = 3
+
+[[menu.main]]
+URL = "portfolio"
+name = "昆虫について"
+weight = 4
+
+[[menu.main]]
+URL = "contact"
+name = "ANTCICADA TIMES"
+weight = 5
+
+[[menu.main]]
+URL = "contact"
+name = "インフォメーション"
+weight = 6
+
+[[menu.main]]
+URL = "contact"
+name = "お問い合わせ"
+weight = 7
+
+[[menu.main]]
+URL = "service#restaurant"
+parent = "事業内容"
+name = "飲食事業"
+weight = 8
+
+[[menu.main]]
+URL = "service#food"
+parent = "事業内容"
+name = "商品事業"
+weight = 9
+
+[[menu.main]]
+URL = "service#consulting"
+parent = "事業内容"
+name = "コンサルティング事業"
+weight = 10
+
+[[menu.main]]
+URL = "service#education"
+parent = "事業内容"
+name = "教育事業"
+weight = 11
+
+[[menu.main]]
+URL = "about_antcicada#society"
+parent = "ANTCICADAについて"
+name = "目指す社会"
+weight = 12
+
+[[menu.main]]
+URL = "about_antcicada#message"
+parent = "ANTCICADAについて"
+name = "代表メッセージ"
+weight = 13
+
+[[menu.main]]
+URL = "about_antcicada#member"
+parent = "ANTCICADAについて"
+name = "メンバー紹介"
+weight = 14
+
+[[menu.main]]
+URL = "about_antcicada#company"
+parent = "ANTCICADAについて"
+name = "会社概要"
+weight = 15
+
+[[menu.main]]
+URL = "about_insect#supplier"
+parent = "昆虫について"
+name = "仕入れ先"
+weight = 16
+
+[[menu.main]]
+URL = "about_insect#safety"
+parent = "昆虫について"
+name = "安全性"
+weight = 17
+
+[[menu.main]]
+URL = "about_insect#potential"
+parent = "昆虫について"
+name = "社会的可能性"
+weight = 18
+
+[[menu.main]]
+URL = "antcicada_times#eat"
+parent = "ANTCICADA TIMES"
+name = "食べる"
+weight = 19
+
+[[menu.main]]
+URL = "antcicada_times#hunt"
+parent = "ANTCICADA TIMES"
+name = "獲る"
+weight = 20
+
+[[menu.main]]
+URL = "antcicada_times#learn"
+parent = "ANTCICADA TIMES"
+name = "知る"
+weight = 21
+
+[[menu.main]]
+URL = "antcicada_times#learn"
+parent = "ANTCICADA TIMES"
+name = "コラム"
+weight = 22
+
+[[menu.main]]
+URL = "information#news"
+parent = "インフォメーション"
+name = "ニュース"
+weight = 23
+
+[[menu.main]]
+URL = "information#media"
+parent = "インフォメーション"
+name = "メディア"
+weight = 24
+
+[[menu.main]]
+URL = "information#event"
+parent = "インフォメーション"
+name = "イベント"
+weight = 25
+
+
+# default parameters
+[params]
+home = "トップページ"
+logo = "images/logo.png"
+# theme color
+theme_color = "#222222"
+# contact info
+phone = "+880 2544 658 256"
+email = "steve.fruits@email.com"
+address = "125/A, CA Commercial Area, California, USA"
+# meta description
+author = "Johnathan Smith"
+description = "This is meta description"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "Copyright &copy; 2020 JOIN EARTH, inc."
+
+
+# contact
+[params.contact]
+enable = true
+form_action = "#" # contact form works with : https://formspree.io
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# social site
+# [[params.social]]
+# URL = "#"
+# icon = "ti-facebook"
+#
+# [[params.social]]
+# URL = "#"
+# icon = "ti-instagram"
+#
+# [[params.social]]
+# URL = "#"
+# icon = "ti-dribbble"
+#
+# [[params.social]]
+# URL = "#"
+# icon = "ti-twitter-alt"

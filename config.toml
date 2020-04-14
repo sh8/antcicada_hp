@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://example.org/"
+baseURL = "https://sh8.github.io/antcicada_hp/"
 languageCode = "ja-jp"
 theme = "kross-hugo"
 title = "JOIN EARTH 公式ホームページ"

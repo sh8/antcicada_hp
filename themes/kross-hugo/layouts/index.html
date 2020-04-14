@@ -1,0 +1,150 @@
+{{ define "main" }}
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary overflow-hidden" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-overlay-hero" src="{{`images/backgrounds/top_bg.png` | relURL}}" alt="bg-shape">
+    </div>
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      {{ range .Site.Params.social }}
+      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      {{ end }}
+    </ul>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+  {{ if .Site.Data.homepage.news.enable }}
+  {{ with .Site.Data.homepage.news }}
+  <!-- experience -->
+  <section class="section" id="parallax">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <ul class="news-list">
+            {{range first 5 .item }}
+            <li class="my-3">
+              <a href={{.url | safeURL}}>
+                <span class="news-list-date">{{.date}}</span>
+                <span class="news-list-title">{{.title}}</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /news -->
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.service.enable }}
+  {{ with .Site.Data.homepage.service }}
+  <!-- services -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{.title | markdownify }}</h2>
+        </div>
+        {{ range .item }}
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href={{.url | safeURL}}>
+            <article class="card shadow">
+              <img class="rounded card-img-top" src="{{.image | relURL}}" alt="{{.title }}">
+              <div class="card-body">
+                <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.title }}</a>
+                </h4>
+                <p class="cars-text">{{.content}}</p>
+              </div>
+            </article>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.about_insect.enable }}
+  {{ with .Site.Data.homepage.about_insect }}
+  <!-- about_insect -->
+  <section class="section position-relative section-bg overflow-hidden">
+    <div class="layer-bg w-100">
+      <img class="img-overlay" src="{{`images/backgrounds/about_insect.jpg`|relURL}}" alt="bg-image">
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="text-white section-title section-about">{{ .title | markdownify }}</h2>
+          {{ range .item }}
+          <p class="text-white p-about">{{ .content | markdownify }}</p>
+          {{ end }}
+          <a class="btn btn-light btn-sm my-4" href={{ .url | safeURL }}>さらに昆虫について知る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about_insect -->
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.antcicada_times.enable }}
+  {{ with .Site.Data.homepage.antcicada_times }}
+  <!-- antcicada_times -->
+  <section class="section position-relative overflow-hidden">
+    <!-- <div class="layer&#45;bg w&#45;100"> -->
+    <!--   <img class="img&#45;overlay" src="{{`images/backgrounds/about_insect.jpg`|relURL}}" alt="bg&#45;image"> -->
+    <!-- </div> -->
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title section-about">{{ .title | markdownify }}</h2>
+          {{ range .item }}
+          <p class="p-about">{{ .content | markdownify }}</p>
+          {{ end }}
+          <a class="btn btn-dark btn-sm my-4" href={{ .url | safeURL }}>さらにANTCICADA TIMESについて知る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /antcicada_times -->
+  {{ end }}
+  {{ end }}
+
+
+  {{ if .Site.Data.homepage.about_antcicada.enable }}
+  {{ with .Site.Data.homepage.about_antcicada }}
+  <!-- about_antcicada -->
+  <section class="section position-relative section-bg overflow-hidden">
+    <div class="layer-bg w-100">
+      <img class="img-overlay" src="{{`images/backgrounds/about_antcicada.jpg`|relURL}}" alt="bg-image">
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="text-white section-title section-about">{{ .title | markdownify }}</h2>
+          {{ range .item }}
+          <p class="text-white p-about">{{ .content | markdownify }}</p>
+          {{ end }}
+          <a class="btn btn-light btn-sm my-4" href={{ .url | safeURL }}>さらにANTCICADAについて知る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about_antcicada -->
+  {{ end }}
+  {{ end }}
+
+{{ end }}

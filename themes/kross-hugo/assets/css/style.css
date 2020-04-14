@@ -576,6 +576,9 @@ textarea.form-control {
   text-align: left;
 }
 
+.news-more {
+  text-align: right;
+}
 
 @media(max-width:767px) {
   .news-list li {
@@ -586,6 +589,10 @@ textarea.form-control {
     font-size: 17px;
     display: block;
     margin-bottom: 0;
+    text-align: center;
+  }
+
+  .news-more {
     text-align: center;
   }
 }

@@ -238,6 +238,12 @@ a:hover {
   font-family: bwnistaint-xbd
 }
 
+@media(max-width:767px) {
+  .section-title {
+    font-size: 30px;
+  }
+}
+
 .section-about {
   margin-bottom: 60px;
 }

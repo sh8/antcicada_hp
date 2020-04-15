@@ -34,7 +34,7 @@ service:
       驚きや発見を身近に楽しめる機会をお届けします。"
 
     - title: "コンサルタント事業"
-      image: "images/services/consultant.jpg"
+      image: "images/services/consulting.jpg"
       content: "昆虫食の企画・商品開発などのお手伝いをします。
       虫のことなら何でもお任せください。"
 
@@ -56,7 +56,7 @@ antcicada_times:
 # about_antcicada
 about_antcicada:
   enable : true
-  title : "ANTCICADAについて"
+  title : "JOIN EARTHについて"
   item:
     - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"

@@ -31,18 +31,18 @@ name = "事業内容"
 weight = 2
 
 [[menu.main]]
-URL = "blog"
-name = "ANTCICADAについて"
+URL = "about_antcicada"
+name = "JOIN EARTHについて"
 weight = 3
 
 [[menu.main]]
-URL = "contact"
+URL = "antcicada_times"
 name = "ANTCICADA TIMES"
 weight = 5
 
 [[menu.main]]
-URL = "contact"
-name = "インフォメーション"
+URL = "news"
+name = "ニュース"
 weight = 6
 
 [[menu.main]]
@@ -51,94 +51,94 @@ name = "お問い合わせ"
 weight = 7
 
 [[menu.main]]
-URL = "service#restaurant"
+URL = "service/restaurant"
 parent = "事業内容"
 name = "飲食事業"
 weight = 8
 
 [[menu.main]]
-URL = "service#food"
+URL = "service/food"
 parent = "事業内容"
 name = "商品事業"
 weight = 9
 
 [[menu.main]]
-URL = "service#consulting"
+URL = "service/consulting"
 parent = "事業内容"
 name = "コンサルティング事業"
 weight = 10
 
 [[menu.main]]
-URL = "service#education"
+URL = "service/education"
 parent = "事業内容"
 name = "教育事業"
 weight = 11
 
 [[menu.main]]
-URL = "about_antcicada#society"
-parent = "ANTCICADAについて"
+URL = "about_antcicada/society"
+parent = "JOIN EARTHについて"
 name = "目指す社会"
 weight = 12
 
 [[menu.main]]
-URL = "about_antcicada#message"
-parent = "ANTCICADAについて"
+URL = "about_antcicada/message"
+parent = "JOIN EARTHについて"
 name = "代表メッセージ"
 weight = 13
 
 [[menu.main]]
-URL = "about_antcicada#member"
-parent = "ANTCICADAについて"
+URL = "about_antcicada/member"
+parent = "JOIN EARTHについて"
 name = "メンバー紹介"
 weight = 14
 
 [[menu.main]]
-URL = "about_antcicada#company"
-parent = "ANTCICADAについて"
+URL = "about_antcicada/company"
+parent = "JOIN EARTHについて"
 name = "会社概要"
 weight = 15
 
 [[menu.main]]
-URL = "antcicada_times#eat"
+URL = "antcicada_times/eat"
 parent = "ANTCICADA TIMES"
 name = "食べる"
 weight = 19
 
 [[menu.main]]
-URL = "antcicada_times#hunt"
+URL = "antcicada_times/hunt"
 parent = "ANTCICADA TIMES"
 name = "獲る"
 weight = 20
 
 [[menu.main]]
-URL = "antcicada_times#learn"
+URL = "antcicada_times/learn"
 parent = "ANTCICADA TIMES"
 name = "知る"
 weight = 21
 
 [[menu.main]]
-URL = "antcicada_times#learn"
+URL = "antcicada_times/column"
 parent = "ANTCICADA TIMES"
 name = "コラム"
 weight = 22
 
-[[menu.main]]
-URL = "information#news"
-parent = "インフォメーション"
-name = "ニュース"
-weight = 23
-
-[[menu.main]]
-URL = "information#media"
-parent = "インフォメーション"
-name = "メディア"
-weight = 24
-
-[[menu.main]]
-URL = "information#event"
-parent = "インフォメーション"
-name = "イベント"
-weight = 25
+# [[menu.main]]
+# URL = "information#news"
+# parent = "インフォメーション"
+# name = "ニュース"
+# weight = 23
+#
+# [[menu.main]]
+# URL = "information#media"
+# parent = "インフォメーション"
+# name = "メディア"
+# weight = 24
+#
+# [[menu.main]]
+# URL = "information#event"
+# parent = "インフォメーション"
+# name = "イベント"
+# weight = 25
 
 
 # default parameters
@@ -178,3 +178,11 @@ icon = "ti-facebook"
 [[params.social]]
 URL = "https://www.instagram.com/antcicada.jp/?hl=ja"
 icon = "ti-instagram"
+
+[[params.social]]
+URL = "https://antcicada.stores.jp"
+icon = "ti-shopping-cart"
+
+[[params.social]]
+URL = "https://www.hotpepper.jp/strJ001245106/"
+icon = "ti-alarm-clock"

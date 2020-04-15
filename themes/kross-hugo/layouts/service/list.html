@@ -5,65 +5,121 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mt-2">
-        <h1 class="service-title">{{.Site.Data.service.title}}</h1>
+        <h1 class="service-title">{{ .Site.Data.service.title }}</h1>
         <ul class="nav justify-content-center service-nav">
-          <li class="nav-item px-3">
-            <a href="#restaurant" class="nav-link active" data-toggle="tab">飲食事業</a>
+          <li class="nav-item px-3" id="restaurant_link">
+            <a href="{{.Site.BaseURL}}/service/restaurant" class="nav-link">飲食事業</a>
           </li>
-          <li class="nav-item px-3">
-            <a href="#food" class="nav-link" data-toggle="tab">商品事業</a>
+          <li class="nav-item px-3" id="food_link">
+            <a href="{{.Site.BaseURL}}/service/food" class="nav-link">商品事業</a>
           </li>
-          <li class="nav-item px-3">
-            <a href="#consulting" class="nav-link" data-toggle="tab">コンサルティング事業</a>
+          <li class="nav-item px-3" id="consulting_link">
+            <a href="{{.Site.BaseURL}}/service/consulting" class="nav-link">コンサルティング事業</a>
           </li>
-          <li class="nav-item px-3">
-            <a href="#education" class="nav-link" data-toggle="tab">教育事業</a>
+          <li class="nav-item px-3" id="education_link">
+            <a href="{{.Site.BaseURL}}/service/education" class="nav-link">教育事業</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div id="restaurant" class="tab-pane active">
-            {{range .Site.Data.service.restaurant.item}}
-            <div class="row">
-              <div class="col-md-12 col-sm-12 my-4">
-                <h2>{{.title}}</h2>
-                <p class="text-muted font-secondary ml-1 mb-0">{{.short_description | safeHTML}}</p>
-              </div>
+          <div id="restaurant" class="tab-pane">
+            {{ range .Site.Data.service.restaurant.item }}
+            <div class="col-md-12 col-sm-12 my-4">
+              <h2>{{ .title }}</h2>
+              <p class="text-muted font-secondary ml-1 mb-0">{{ .short_description | safeHTML }}</p>
             </div>
-            <div class="row">
-              <div class="col-md-10 offset-md-1 col-sm-12">
-                <img class="rounded img-top" src="{{.image | relURL}}" alt="{{.title}}">
-              </div>
-              <div class="col-md-10 offset-md-1 col-sm-12">
-                <h3 class="text-center my-4">営業時間</h3>
-                {{range .business_hours}}
-                <p class="my-0 text-center ">{{.text | safeHTML}}</p>
-                {{end}}
-                <h3 class="text-center my-4">メニュー</h3>
-                {{range .menu}}
-                <p class="my-0 text-center">{{.title}} {{.price}}</p>
-                {{end}}
-                <p class="my-0 text-center">その他にも様々なメニューを取り揃えております</p>
-              </div>
-              {{range .description}}
-              <div class="col-md-10 offset-md-1 col-sm-12">
-                <h3 class="text-center my-4">{{.title}}</h3>
-                {{range .content}}
-                <p class="my-0 text-center ">{{.text | safeHTML}}</p>
-                {{end}}
-              </div>
-              {{end}}
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
             </div>
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <h3 class="text-center my-4">営業時間</h3>
+              {{ range .business_hours }}
+              <p class="my-0 text-center ">{{ .text | safeHTML }}</p>
+              {{ end }}
+              <h3 class="text-center my-4">メニュー</h3>
+              {{ range .menu }}
+              <p class="my-0 text-center">{{ .title }} {{ .price }}</p>
+              {{ end }}
+              <p class="my-0 text-center">その他にも様々なメニューを取り揃えております</p>
+            </div>
+            {{ range .description }}
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <h3 class="text-center my-4">{{ .title }}</h3>
+              {{ range .content }}
+              <p class="my-0 text-center ">{{ .text | safeHTML }}</p>
+              {{ end }}
+            </div>
+            {{ end }}
             <hr class="mt-5" />
-            {{end}}
+            {{ end }}
           </div>
           <div id="food" class="tab-pane">
-            <p>hoge2</p>
+            <div class="col-md-12 col-sm-12 my-4">
+              <p class="text-center">{{ .Site.Data.service.food.short_description | safeHTML }}</p>
+            </div>
+            {{ range .Site.Data.service.food.item }}
+            <div class="col-md-12 col-sm-12 my-4">
+              <h2>{{ .title }}</h2>
+              <p class="text-muted font-secondary ml-1 mb-0">{{ .short_description | safeHTML }}</p>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            {{ range .description }}
+              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+            {{ end }}
+            </div>
+            <hr class="mt-5" />
+            {{ end }}
           </div>
           <div id="consulting" class="tab-pane">
-            <p>hoge3</p>
+            <div class="col-md-12 col-sm-12 my-4">
+              <p class="text-center">{{ .Site.Data.service.consulting.short_description | safeHTML }}</p>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <img class="rounded img-top" src="{{ .Site.Data.service.consulting.image | relURL }}" alt="{{ .Site.Data.service.consulting.title }}">
+            </div>
+            {{ range .Site.Data.service.consulting.item }}
+            <div class="text-center col-md-12 col-sm-12 my-4">
+              <h2>{{ .title }}</h2>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            {{ range .description }}
+              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+            {{ end }}
+            </div>
+            {{ end }}
+            <div class="text-center col-md-12 col-sm-12 my-4">
+              <h2>これまでのコンサルティング実施企業</h2>
+            </div>
+            <div class="offset-md-3 col-md-6 col-sm-12">
+              <div class="row">
+                {{ range .Site.Data.service.consulting.prior_companies }}
+                <div class="col-md-6 col-sm-12 my-4">
+                  <h5 class="text-center">{{ .title }}</h5>
+                  <img class="img-top" src="{{ .logo | relURL }}" alt="{{ .title }}">
+                </div>
+                {{ end }}
+              </div>
+            </div>
           </div>
           <div id="education" class="tab-pane">
-            <p>hoge4</p>
+            <div class="col-md-12 col-sm-12 my-4">
+              <p class="text-center">{{ .Site.Data.service.education.short_description | safeHTML }}</p>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12">
+              <img class="rounded img-top" src="{{ .Site.Data.service.education.image | relURL }}" alt="{{ .Site.Data.service.education.title }}">
+            </div>
+            {{ range .Site.Data.service.education.item }}
+            <div class="text-center col-md-12 col-sm-12 my-4">
+              <h2>{{ .title }}</h2>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            {{ range .description }}
+              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+            {{ end }}
+            </div>
+            {{ end }}
           </div>
         </div>
       </div>
@@ -72,5 +128,14 @@
   <!-- background shapes -->
 </section>
 <!-- /page title -->
+
+<script>
+  let tabId = "{{ .File.Dir }}".replace("service/", "").replace("/", "");
+  let tabItemId = tabId + "_link";
+  let tabItem = document.getElementById(tabItemId);
+  let tab = document.getElementById(tabId);
+  tabItem.classList.add("active");
+  tab.classList.add("active");
+</script>
 
 {{ end }}

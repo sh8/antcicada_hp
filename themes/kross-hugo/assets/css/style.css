@@ -45,7 +45,6 @@ h1,
 }
 
 @media(max-width:991px) {
-
   h1,
   .h1 {
     font-size: 33px;
@@ -56,7 +55,7 @@ h1,
 @media(max-width:767px) {
   h1,
   .h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 }
 
@@ -101,6 +100,23 @@ h6,
 
 a {
   color: white;
+}
+
+.big {
+  font-size: 60px;
+}
+
+@media(max-width:991px) {
+  .big {
+    font-size: 55px;
+  }
+}
+
+@media(max-width:767px) {
+  .big {
+    margin-top: -20px;
+    font-size: 40px;
+  }
 }
 
 .dropdown-menu {
@@ -495,6 +511,14 @@ textarea.form-control {
   font-size: 12px;
   font-weight: bold;
   padding: 12px;
+}
+
+.dropdown-item:active {
+  background-color: transparent;
+}
+
+.navbar .nav-item.active .nav-link{
+  color: #52f8f4;
 }
 
 .navbar .nav-item.active .nav-link{
@@ -1007,6 +1031,10 @@ blockquote {
   width: 100%;
 }
 
+.active:after {
+  width: 100% !important;
+}
+
 @media(max-width:991px) {
   .service-nav .nav-item:not(:last-child) {
     border-right: none;
@@ -1017,8 +1045,13 @@ blockquote {
     display: block;
     width: 100%;
     height: 1px;
-    background: var(--primary-color);
+    background: lightgray;
     transition: width .3s;
+  }
+
+  .active:after {
+    background: var(--primary-color) !important;
+    height: 2px !important;
   }
 
   .service-title { 

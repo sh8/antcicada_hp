@@ -1,5 +1,4 @@
 title: "事業内容"
-
 restaurant:
   item:
     - title: "コオロギラーメン"
@@ -83,3 +82,82 @@ restaurant:
           content:
             - text: "株式会社コカコーラ様"
             - text: "一般財団法人日本財団様"
+
+food:
+  short_description: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。"
+  item:
+    - title: "コオロギビール"
+      image: "images/services/food/beer.jpg"
+      description:
+        - text: "焙煎したコオロギの香ばしさを生かしたコク深いビール。岩手県遠野市の遠野醸造との共同開発により完成。"
+        - text: "ビール作りの際に残るビール粕を餌にコオロギを育て、そのコオロギを原料にビールを醸造。循環型モデルを模索しています。"
+
+    - title: "コオロギ醤油"
+      image: "images/services/food/soy_source.jpg"
+      description:
+        - text: "大豆を用いずにコオロギを発酵させてつくった発酵調味料。"
+        - text: "コオロギが持つ香りや、麹菌・酵母の働きで引き出される旨味が特徴。"
+
+    - title: "タガメジン"
+      image: "images/services/food/tagame_gin.jpg"
+      description:
+        - text: "粕取り焼酎の芳醇な香りと、タイワンタガメの持つフルーティな香り、ジュニパーベリーの爽やかな香りがマッチした製品。"
+        - text: "岐阜県郡上市のアルケミエ辰巳蒸留所との共同開発により完成。"
+
+    - title: "コオロギ佃煮"
+      image: "images/services/food/tsukudani.jpg"
+      description:
+        - text: "日本人で伝統的に食べられてきた昆虫食といえば佃煮。"
+        - text: "コオロギの旨味がたっぷり詰まった昔ながらの佃煮です。"
+
+    - title: "蚕沙ブランデー"
+      image: "images/services/food/kaiko.jpg"
+      description:
+        - text: "桑の葉を食べて育った蚕のフンと、桑の実を原料にしたフルーツブランデー。"
+        - text: "桑の葉茶のような蚕のフンの風味から、虫たちの人生に想いを馳せられる製品。"
+        - text: "千葉県大滝村のMitosaya蒸留所との共同開発。"
+
+    - title: "コオロギドレッシング"
+      image: "images/services/food/dressing.jpg"
+      description:
+        - text: "デザイン会社AXISと立ちあげたドレッシングブランド「TWO THIIRDS」。"
+        - text: "第1弾は、2種類のコオロギを原料にした和風ドレッシングとフレンチドレッシング。"
+
+consulting:
+  short_description: "昆虫食の企画・商品開発などのお手伝いをします。虫のことなら何でもお任せください。問い合わせは<a class='text-dark' href='https://example.com'>こちら</a>まで。"
+  image: "images/services/consulting/plan.jpg"
+  item:
+    - title: "昆虫食の企画開発"
+      description:
+        - text: "昆虫食を扱う各種企画/開発をサポートいたします。"
+
+    - title: "昆虫食の商品開発"
+      description:
+        - text: "昆虫食を扱う商品開発をサポートいたします。"
+
+    - title: "昆虫食のコミュニティ活用、形成"
+      description:
+        - text: "ANTCICADAが抱える昆虫食コミュニティを活用し、情報の検証や拡散に貢献します。"
+  prior_companies:
+    - title: "株式会社コカコーラ"
+      logo: "images/services/consulting/cocacola.png"
+
+    - title: "ニッセー株式会社"
+      logo: "images/services/consulting/nissei.png"
+
+    - title: "太陽ホールディングス会社"
+      logo: "images/services/consulting/taiyo.png"
+
+    - title: "徳島大学グリラス"
+      logo: "images/services/consulting/tokushima_univ.jpg"
+
+education:
+  short_description: "獲って食べるワークショップを中心に、自然体験や食育を学びます。"
+  image: "images/services/education/plan.jpg"
+  item:
+    - title: "ワークショップについて"
+      description:
+        - text: "昆虫の最大の魅力は、身近さだと考えています。"
+        - text: "昆虫を実際に獲って食べる体験は、命をいただく食育や、自然と触れ合う自然体験の側面を持ちます。"
+        - text: "多くの生き物の命をいただくことでしか私たちは生きられない、全てが美味しく食べられるとは限らない。"
+        - text: "そんな当たり前のことを感じる場として、昆虫食は魅力的な教材になると考えています。"

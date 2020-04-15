@@ -1,0 +1,120 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title-tab-alt position-relative overflow-hidden service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-2">
+        <h1 class="service-title">{{ .Site.Data.about_antcicada.title }}</h1>
+        <ul class="nav justify-content-center service-nav">
+          <li class="nav-item px-3" id="society_link">
+            <a href="{{.Site.BaseURL}}/about_antcicada/society" class="nav-link">目指す社会</a>
+          </li>
+          <li class="nav-item px-3" id="message_link">
+            <a href="{{.Site.BaseURL}}/about_antcicada/message" class="nav-link">代表メッセージ</a>
+          </li>
+          <li class="nav-item px-3" id="member_link">
+            <a href="{{.Site.BaseURL}}/about_antcicada/member" class="nav-link">メンバー紹介</a>
+          </li>
+          <li class="nav-item px-3" id="company_link">
+            <a href="{{.Site.BaseURL}}/about_antcicada/company" class="nav-link">会社概要</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="society" class="tab-pane">
+            {{ range .Site.Data.about_antcicada.society.item }}
+            <div class="text-center col-md-12 col-sm-12 my-4">
+              <h2>{{ .title }}</h2>
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            {{ range .content }}
+              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+            {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          <div id="message" class="tab-pane">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-5">
+              {{ range .Site.Data.about_antcicada.message.content }}
+              <p class="my-2 text-center">{{ .text | safeHTML }}</p>
+              {{ end }}
+              <h2 class="my-4 text-center">{{ .Site.Data.about_antcicada.message.quote }}</h2>
+              <h5 class="my-4 text-center">{{ .Site.Data.about_antcicada.message.sign }}</h5>
+            </div>
+          </div>
+          <div id="member" class="tab-pane">
+            {{ range .Site.Data.about_antcicada.member.item }}
+            <div class="col-md-12 col-sm-12 my-4">
+              <h3>{{ .title }}</h3>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-12">
+              <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+              {{ range .description }}
+              <p class="my-0 text-center ">{{ .text | safeHTML }}</p>
+              {{ end }}
+            </div>
+            <hr class="mt-5" />
+            {{ end }}
+          </div>
+          <div id="company" class="tab-pane">
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">会社名</h4>
+              <p class="text-center">{{ .Site.Data.about_antcicada.company.name }}</p>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">代表取締役</h4>
+            <p class="text-center">{{ .Site.Data.about_antcicada.company.CEO }}</p>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">所在地</h4>
+            {{ range .Site.Data.about_antcicada.company.address }}
+            <p class="my-0 text-center">{{ .text }}</p>
+            {{ end }}
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">設立日</h4>
+            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.establishment_date }}</p>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">事業内容</h4>
+            {{ range .Site.Data.about_antcicada.company.services }}
+            <p class="my-0 text-center">{{ .title }}</p>
+            {{ end }}
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">資本金</h4>
+            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.capital }}</p>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">取引銀行</h4>
+            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.main_bank }}</p>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">顧問弁護士</h4>
+            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.lawer }}</p>
+          </div>
+          <div class="col-md-12 col-sm-12 my-4">
+            <h4 class="text-center">顧問税理士</h4>
+            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.accountant }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+<script>
+  let tabId = "{{ .File.Dir }}".replace("about_antcicada/", "").replace("/", "");
+  let tabItemId = tabId + "_link";
+  let tabItem = document.getElementById(tabItemId);
+  let tab = document.getElementById(tabId);
+  tabItem.classList.add("active");
+  tab.classList.add("active");
+</script>
+
+{{ end }}

@@ -44,14 +44,6 @@ service:
       体験する前と後での変化は人それぞれ。"
   # blog post comes from "content/blog" folder
 
-# experience
-about_insect:
-  enable : true
-  title : "昆虫について"
-  item:
-    - content: "ANTCICADAが使用する昆虫は国内・海外の信頼された業者のみから仕入れを行なっています。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra."
-
 # andcicada_times
 antcicada_times:
   enable : true
@@ -69,37 +61,3 @@ about_antcicada:
     - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
     - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra.s"
-
-# client logo slider
-clients_logo_slider:
-  enable : true
-  item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://examplesite.com"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://examplesite.com"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://examplesite.com"
-      
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://examplesite.com"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://examplesite.com"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"

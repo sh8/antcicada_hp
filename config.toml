@@ -2,7 +2,7 @@
 baseURL = "https://sh8.github.io/antcicada_hp/"
 languageCode = "ja-jp"
 theme = "kross-hugo"
-title = "JOIN EARTH 公式ホームページ"
+title = "JOIN EARTH"
 
 # css plugins
 [[params.plugins.css]]
@@ -34,11 +34,6 @@ weight = 2
 URL = "blog"
 name = "ANTCICADAについて"
 weight = 3
-
-[[menu.main]]
-URL = "portfolio"
-name = "昆虫について"
-weight = 4
 
 [[menu.main]]
 URL = "contact"
@@ -102,24 +97,6 @@ URL = "about_antcicada#company"
 parent = "ANTCICADAについて"
 name = "会社概要"
 weight = 15
-
-[[menu.main]]
-URL = "about_insect#supplier"
-parent = "昆虫について"
-name = "仕入れ先"
-weight = 16
-
-[[menu.main]]
-URL = "about_insect#safety"
-parent = "昆虫について"
-name = "安全性"
-weight = 17
-
-[[menu.main]]
-URL = "about_insect#potential"
-parent = "昆虫について"
-name = "社会的可能性"
-weight = 18
 
 [[menu.main]]
 URL = "antcicada_times#eat"
@@ -194,18 +171,10 @@ enable = true
 preloader = "" # use png, jpg, svg or gif format
 
 # social site
-# [[params.social]]
-# URL = "#"
-# icon = "ti-facebook"
-#
-# [[params.social]]
-# URL = "#"
-# icon = "ti-instagram"
-#
-# [[params.social]]
-# URL = "#"
-# icon = "ti-dribbble"
-#
-# [[params.social]]
-# URL = "#"
-# icon = "ti-twitter-alt"
+[[params.social]]
+URL = "https://www.facebook.com/antcicada.jp/"
+icon = "ti-facebook"
+
+[[params.social]]
+URL = "https://www.instagram.com/antcicada.jp/?hl=ja"
+icon = "ti-instagram"

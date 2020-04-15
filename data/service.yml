@@ -1,0 +1,85 @@
+title: "事業内容"
+
+restaurant:
+  item:
+    - title: "コオロギラーメン"
+      short_description: "コオロギで出汁を取った世界初の一杯"
+      image: "images/services/restaurant/ramen.jpg"
+      business_hours:
+        - text: "月曜日、火曜日、日曜日"
+        - text: "ランチ営業11:00~14:00、ディナー営業17:30~22:00"
+      menu:
+        - title: "コオロギラーメン"
+          price: "1,000円"
+        - title: "コオロギ佃煮"
+          price: "300円"
+        - title: "コオロギビール"
+          price: "800円"
+      description:
+        - title: "コオロギラーメンについて"
+          content:
+            - text: "香ばしく力強い味わいのフタホシコオロギと、上品な旨味のヨーロッパイエコオロギ。"
+            - text: "2種類の国産コオロギをブレンドして出汁を取りました。 一杯にコオロギを約100匹使用します。"
+            - text: "出汁だけでなく、麺やタレ、油もコオロギで開発し、様々な形でコオロギの魅力を表現した、命を丸ごと頂ける感謝の一杯です。"
+        - title: "コオロギラーメンのこれまで"
+          content:
+            - text: "2015年、「ラーメン凪」との共同開発以来、赤坂サカスや、慶應義塾大学食堂、 日比谷音楽祭など、全国各地の飲食店やイベントにて、提供してきました。フィンランドやエストニアなど海外でも人気を博し、国内外多数のメディアでとりあげられ大反響を博しました。"
+
+    - title: "コース料理"
+      short_description: "動物も、植物も、虫も、地球の魅力を味わう"
+      image: "images/services/restaurant/course.jpg"
+      business_hours:
+        - text: "金曜日、土曜日"
+        - text: "ディナー営業 19:00~ 完全予約制"
+        - text: "* 予約は<a class='text-dark' href='https://example.com'>こちら</a>から"
+      menu:
+        - title: "コース料理"
+          price: "6,400円"
+        - title: "アルコールペアリング"
+          price: "3,600円"
+        - title: "ノンアルコールペアリング"
+          price: "3,600円"
+      description:
+        - title: "コースについて"
+          content:
+            - text: "旬の虫を始め、野草やジビエ、外来生物など、日の目を浴びていない生き物たちの魅力をお届けします。"
+
+    - title: "デリバリー"
+      short_description: "虫を使ったお料理をご家庭にお届けします"
+      image: "images/services/restaurant/delivery.jpg"
+      business_hours:
+        - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
+        - text: "* 注文は<a class='text-dark' href='https://example.com'>こちら</a>から"
+      menu:
+        - title: "虫たちの惣菜セット（3〜４品）"
+          price: "1,640円"
+        - title: "昼からおうちで冒険セット (お弁当)"
+          price: "1,164円"
+      description:
+        - title: "デリバリーについて"
+          content:
+            - text: "ANTCICADAの昆虫料理がご家庭で楽しめます。"
+            - text: "おうちの中で大冒険をしてみませんか。"
+            - text: "全力で地球の恵みをお届けします。"
+
+    - title: "ケータリング"
+      short_description: "企業の交流会や友人とのパーティーにて"
+      image: "images/services/restaurant/catering.jpg"
+      business_hours:
+        - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
+        - text: "* 注文は<a class='text-dark' href='https://example.com'>こちら</a>から"
+      menu:
+        - title: "松"
+          price: "116,490円"
+        - title: "竹"
+          price: "116,490円"
+        - title: "梅"
+          price: "116,490円"
+      description:
+        - title: "ケータリングについて"
+          content:
+            - text: "企業やイベント会場に、昆虫料理のケータリングをお届けします。"
+        - title: "ケータリング事例"
+          content:
+            - text: "株式会社コカコーラ様"
+            - text: "一般財団法人日本財団様"

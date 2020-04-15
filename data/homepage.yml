@@ -50,7 +50,7 @@ about_insect:
   title : "昆虫について"
   item:
     - content: "ANTCICADAが使用する昆虫は国内・海外の信頼された業者のみから仕入れを行なっています。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra. In leo dui, faucibus pharetra dolor id, imperdiet ornare lectus. In massa eros, varius id efficitur in, finibus vitae lorem. Curabitur scelerisque aliquet diam, vel interdum metus venenatis id. In convallis, diam id mattis placerat, ligula sem eleifend est, sed egestas felis felis quis nibh. Maecenas laoreet hendrerit ipsum sit amet mattis. Etiam ultricies dolor sapien, sit amet bibendum mauris ornare eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce justo mi, vestibulum quis bibendum ac, tempus et mi. Vestibulum dictum magna ut blandit tristique. Integer ullamcorper nibh ultrices tortor luctus, eget pharetra tortor finibus. Maecenas venenatis nisl et ipsum congue imperdiet."
+    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra."
 
 # andcicada_times
 antcicada_times:
@@ -59,7 +59,7 @@ antcicada_times:
   item:
     - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra. In leo dui, faucibus pharetra dolor id, imperdiet ornare lectus. In massa eros, varius id efficitur in, finibus vitae lorem. Curabitur scelerisque aliquet diam, vel interdum metus venenatis id. In convallis, diam id mattis placerat, ligula sem eleifend est, sed egestas felis felis quis nibh. Maecenas laoreet hendrerit ipsum sit amet mattis. Etiam ultricies dolor sapien, sit amet bibendum mauris ornare eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce justo mi, vestibulum quis bibendum ac, tempus et mi. Vestibulum dictum magna ut blandit tristique. Integer ullamcorper nibh ultrices tortor luctus, eget pharetra tortor finibus. Maecenas venenatis nisl et ipsum congue imperdiet."
+    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra."
 
 # about_antcicada
 about_antcicada:
@@ -68,7 +68,7 @@ about_antcicada:
   item:
     - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra. In leo dui, faucibus pharetra dolor id, imperdiet ornare lectus. In massa eros, varius id efficitur in, finibus vitae lorem. Curabitur scelerisque aliquet diam, vel interdum metus venenatis id. In convallis, diam id mattis placerat, ligula sem eleifend est, sed egestas felis felis quis nibh. Maecenas laoreet hendrerit ipsum sit amet mattis. Etiam ultricies dolor sapien, sit amet bibendum mauris ornare eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce justo mi, vestibulum quis bibendum ac, tempus et mi. Vestibulum dictum magna ut blandit tristique. Integer ullamcorper nibh ultrices tortor luctus, eget pharetra tortor finibus. Maecenas venenatis nisl et ipsum congue imperdiet."
+    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra.s"
 
 # client logo slider
 clients_logo_slider:

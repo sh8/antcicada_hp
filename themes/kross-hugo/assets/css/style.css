@@ -486,16 +486,6 @@ textarea.form-control {
   background-color: var(--primary-color);
 }
 
-.navigation.nav-bg {
-  padding: 10px 30px 10px 10px;
-}
-
-@media(max-width:991px) {
-  .navigation.nav-bg {
-    padding: 15px 20px
-  }
-}
-
 @media(max-width:991px) {
   .navigation {
     padding: 0px;

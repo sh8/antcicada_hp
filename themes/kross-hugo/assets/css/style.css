@@ -618,8 +618,8 @@ textarea.form-control {
     margin-bottom: 20px;
   }
 
-  .news-list li a span {
-    font-size: 18px;
+  .news-list li span {
+    font-size: 14px;
     display: block;
     margin-bottom: 0;
     text-align: center;

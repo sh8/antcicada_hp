@@ -5,11 +5,11 @@
       <div class="row">
         {{ range .Site.Menus.main }}
         <div class="footer-nav col-md-2 col-sm-4 col-xs-12">
-          <a class="topic d-block text-white paragraph-lg font-secondary" href={{ .URL | safeURL }}>
+          <a class="topic d-block text-white paragraph-lg font-secondary" href="/antcicada_hp/{{ .URL | safeURL }}">
             {{ .Name }}
           </a>
           {{ range .Children }}
-          <a class="d-block small my-3 text-secondary font-secondary" href={{ .URL | safeURL }}>
+          <a class="d-block small my-3 text-secondary font-secondary" href="/antcicada_hp/{{ .URL | safeURL }}">
             - {{ .Name }}
           </a>
           {{ end }}

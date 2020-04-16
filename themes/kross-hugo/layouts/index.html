@@ -73,11 +73,11 @@
         </div>
         {{ range .item }}
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href={{.url | safeURL}}>
+          <a href="/antcicada_hp/{{.url | safeURL}}">
             <article class="card shadow">
               <img class="rounded card-img-top" src="{{.image | relURL}}" alt="{{.title }}">
               <div class="card-body">
-                <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.title }}</a>
+                <h4 class="card-title"><a class="text-dark" href="/antcicada_hp/{{.url}}">{{.title }}</a>
                 </h4>
                 <p class="cars-text">{{.content}}</p>
               </div>
@@ -106,7 +106,7 @@
           {{ range .item }}
           <p class="text-white p-about">{{ .content | markdownify }}</p>
           {{ end }}
-          <a class="btn btn-light btn-sm my-4" href={{ .url | safeURL }}>さらにANTCICADAについて知る</a>
+          <a class="btn btn-light btn-sm my-4" href="/antcicada_hp{{ .url | safeURL }}">さらにJOIN EARTHについて知る</a>
         </div>
       </div>
     </div>
@@ -129,7 +129,7 @@
           {{ range .item }}
           <p class="p-about">{{ .content | markdownify }}</p>
           {{ end }}
-          <a class="btn btn-dark btn-sm my-4" href={{ .url | safeURL }}>さらにANTCICADA TIMESについて知る</a>
+          <a class="btn btn-dark btn-sm my-4" href="/antcicada_hp{{ .url | safeURL }}">さらにANTCICADA TIMESについて知る</a>
         </div>
       </div>
     </div>

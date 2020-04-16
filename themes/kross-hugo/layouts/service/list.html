@@ -140,13 +140,15 @@
 </section>
 <!-- /page title -->
 
+{{ with .File }}
 <script>
-  let tabId = "{{ .File.Dir }}".replace("service/", "").replace("/", "");
+  let tabId = "{{ .Dir }}".replace("service/", "").replace("/", "");
   let tabItemId = tabId + "_link";
   let tabItem = document.getElementById(tabItemId);
   let tab = document.getElementById(tabId);
   tabItem.classList.add("active");
   tab.classList.add("active");
 </script>
+{{ end }}
 
 {{ end }}

@@ -41,14 +41,9 @@ name = "ANTCICADA TIMES"
 weight = 5
 
 [[menu.main]]
-URL = "news"
-name = "ニュース"
+URL = ""
+name = "インフォメーション"
 weight = 6
-
-[[menu.main]]
-URL = "question"
-name = "よくあるご質問"
-weight = 7
 
 [[menu.main]]
 URL = "contact"
@@ -102,6 +97,31 @@ URL = "about_antcicada/company"
 parent = "JOIN EARTHについて"
 name = "会社概要"
 weight = 15
+
+[[menu.main]]
+URL = "news"
+parent = "インフォメーション"
+name = "ニュース"
+weight = 16
+
+[[menu.main]]
+URL = "https://antcicada.stores.jp/"
+parent = "インフォメーション"
+name = "オンラインストア"
+weight = 17
+
+[[menu.main]]
+URL = "https://www.hotpepper.jp/strJ001245106/"
+parent = "インフォメーション"
+name = "店舗情報/予約"
+weight = 17
+
+[[menu.main]]
+URL = "question"
+parent = "インフォメーション"
+name = "よくあるご質問"
+weight = 19
+
 
 # [[menu.main]]
 # URL = "antcicada_times/eat"

@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title-tab-alt position-relative overflow-hidden service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-2">
+        <div class="col-md-12 col-sm-12">
+          <h2>{{ .Site.Data.question.title }}</h2>
+        </div>
+        <div class="col-md-12 my-5">
+          <ul class="news-list">
+            {{range .Site.Data.question.item }}
+            <li class="my-5">
+              <h4 class="question-list">Q. {{.question}}</h4>
+              <p class="answer-list">A. {{.answer}}</p>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+{{ end }}

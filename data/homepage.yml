@@ -13,21 +13,25 @@ service:
   item:
     - title: "飲食事業"
       image: "images/services/restaurant.jpg"
+      url: "/service/restaurant"
       content: "「コオロギラーメン」と「コース料理」を提供する飲食店。
       動物も、植物も、虫も、魅力溢れる地球からの贈り物をお届けします。"
 
     - title: "商品事業"
       image: "images/services/food.jpg"
+      url: "/service/food"
       content: "昆虫を素材として使用した商品の開発。
       驚きや発見を身近に楽しめる機会をお届けします。"
 
     - title: "コンサルタント事業"
       image: "images/services/consulting.jpg"
+      url: "/service/consulting"
       content: "昆虫食の企画・商品開発などのお手伝いをします。
       虫のことなら何でもお任せください。"
 
     - title: "教育事業"
       image: "images/services/education.jpg"
+      url: "/service/education"
       content: "獲って食べるワークショップを中心に、自然体験や食育を学びます。
       体験する前と後での変化は人それぞれ。"
   # blog post comes from "content/blog" folder
@@ -38,8 +42,9 @@ about_antcicada:
   title : "JOIN EARTHについて"
   item:
     - content: "ANTCICADAは、「動物も、植物も、虫も、あらゆることに分けへだてなく向き合える世の中」を目指して、人々の視点を拡げるきっかけを創り続けます。"
+  url: "/about_antcicada/society"
 
-# andcicada_times
+# antcicada_times
 antcicada_times:
   enable : true
   title : "ANTCICADA TIMES"
@@ -47,3 +52,4 @@ antcicada_times:
     - content: "昆虫食に関する記事やレシピ動画を発信していくWebメディアです。"
     - content: "虫をはじめ、この地球は個性豊かな生き物たちで溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
+  url: "/antcicada_times"

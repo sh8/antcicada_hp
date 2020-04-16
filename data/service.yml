@@ -1,5 +1,7 @@
 title: "事業内容"
 restaurant:
+  short_description:
+    - text: "「コオロギラーメン」と「コース料理」を提供する店舗を中心に、ご自宅まで料理をお届けする「デリバリー」や、企業様などでの「ケータリング」も承っております。"
   item:
     - title: "コオロギラーメン"
       short_description: "コオロギで出汁を取った世界初の一杯"
@@ -84,7 +86,9 @@ restaurant:
             - text: "一般財団法人日本財団様"
 
 food:
-  short_description: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。"
+  short_description:
+    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。"
+    - text: "オンラインストアは<a class='text-dark' href='https://ancient-paper-929.stores.jp'>こちら</a>。"
   item:
     - title: "コオロギビール"
       image: "images/services/food/beer.jpg"
@@ -124,7 +128,9 @@ food:
         - text: "第1弾は、2種類のコオロギを原料にした和風ドレッシングとフレンチドレッシング。"
 
 consulting:
-  short_description: "昆虫食の企画・商品開発などのお手伝いをします。虫のことなら何でもお任せください。問い合わせは<a class='text-dark' href='https://example.com'>こちら</a>まで。"
+  short_description:
+    - text: "昆虫食の企画・商品開発などのお手伝いをします。虫のことなら何でもお任せください。"
+    - text: "問い合わせは<a class='text-dark' href='https://example.com'>こちら</a>まで。"
   image: "images/services/consulting/plan.jpg"
   item:
     - title: "昆虫食の企画開発"
@@ -152,12 +158,24 @@ consulting:
       logo: "images/services/consulting/tokushima_univ.jpg"
 
 education:
-  short_description: "獲って食べるワークショップを中心に、自然体験や食育を学びます。"
-  image: "images/services/education/plan.jpg"
+  short_description:
+    - text: "獲って食べるワークショップを中心に、自然体験や食育を学びます。"
   item:
     - title: "ワークショップについて"
+      image: "images/services/education/workshop.jpg"
       description:
         - text: "昆虫の最大の魅力は、身近さだと考えています。"
         - text: "昆虫を実際に獲って食べる体験は、命をいただく食育や、自然と触れ合う自然体験の側面を持ちます。"
         - text: "多くの生き物の命をいただくことでしか私たちは生きられない、全てが美味しく食べられるとは限らない。"
         - text: "そんな当たり前のことを感じる場として、昆虫食は魅力的な教材になると考えています。"
+
+    - title: "料理・発酵仕込み"
+      image: "images/services/education/cooking.jpg"
+      description:
+        - text: "昆虫食の料理教室や、コオロギ醤をはじめとした発酵食の仕込み体験など、様々な機会を提供します。"
+
+    - title: "講演会"
+      image: "images/services/education/talk.jpg"
+      description:
+        - text: "代表の篠原祐太を中心に、講演会や各種イベントへの登壇も承っております。"
+        - texst: "詳細など気になる点はお気軽にご相談ください。"

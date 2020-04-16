@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title-tab-alt position-relative overflow-hidden service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-2">
+        {{ range .Site.Data.antcicada_times.item }}
+        <div class="text-center col-md-12 col-sm-12 my-4">
+          <h2>{{ .title }}</h2>
+        </div>
+        <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+          {{ range .content }}
+          <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+          {{ end }}
+          {{ if .item }}
+          <div class="row">
+            {{ range first 3 .item }}
+            <div class="col-md-4 col-sm-12 my-4">
+              <a href={{.url | safeURL}}>
+                <article class="card shadow">
+                  <img class="rounded card-img-top" src="{{.image | relURL}}" alt="{{.title }}">
+                  <div class="card-body">
+                    <p class="card-title">
+                    <a class="text-dark" href="{{.url}}">{{.title }}</a>
+                    </p>
+                    <p class="cars-text">{{.date}}</p>
+                  </div>
+                </article>
+              </a>
+            </div>
+            {{ end }}
+            <div class="col-md-12 col-sm-12 my-4">
+              <p class="text-center">
+                <a class="btn btn-dark btn-sm" href="{{.url}}">記事一覧へ</a>
+              </p>
+            </div>
+          </div>
+        {{ end }}
+        </div>
+        <hr />
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+{{ end }}

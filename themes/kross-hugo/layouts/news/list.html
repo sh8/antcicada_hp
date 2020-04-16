@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title-tab-alt position-relative overflow-hidden service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-2">
+        <div class="col-md-12 col-sm-12">
+          <h2>{{ .Site.Data.news.title }}</h2>
+        </div>
+        <div class="col-md-12 my-5 d-flex justify-content-center">
+          <ul class="news-list">
+            {{range .Site.Data.news.item }}
+            <li class="my-3">
+              {{ if .url }}
+              <a href={{ .url | safeURL }}>
+                <span class="news-list-date">{{.date}}</span>
+                <span class="news-list-title">{{.title}}</span>
+              </a>
+              {{ else }}
+              <span class="news-list-date">{{.date}}</span>
+              <span class="news-list-title">{{.title}}</span>
+              {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+{{ end }}

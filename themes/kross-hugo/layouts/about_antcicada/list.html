@@ -34,7 +34,10 @@
             {{ end }}
           </div>
           <div id="message" class="tab-pane">
-            <div class="col-md-10 offset-md-1 col-sm-12 my-5">
+            <div class="col-md-6 offset-md-3 col-sm-12 mt-4">
+              <img class="rounded img-top" src="{{ .Site.Data.about_antcicada.message.image | relURL }}" alt="{{ .Site.Data.about_antcicada.message.title }}">
+            </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
               {{ range .Site.Data.about_antcicada.message.content }}
               <p class="my-2 text-center">{{ .text | safeHTML }}</p>
               {{ end }}
@@ -63,42 +66,42 @@
               <h4 class="text-center">会社名</h4>
               <p class="text-center">{{ .Site.Data.about_antcicada.company.name }}</p>
             </div>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">代表取締役</h4>
-            <p class="text-center">{{ .Site.Data.about_antcicada.company.CEO }}</p>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">所在地</h4>
-            {{ range .Site.Data.about_antcicada.company.address }}
-            <p class="my-0 text-center">{{ .text }}</p>
-            {{ end }}
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">設立日</h4>
-            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.establishment_date }}</p>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">事業内容</h4>
-            {{ range .Site.Data.about_antcicada.company.services }}
-            <p class="my-0 text-center">{{ .title }}</p>
-            {{ end }}
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">資本金</h4>
-            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.capital }}</p>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">取引銀行</h4>
-            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.main_bank }}</p>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">顧問弁護士</h4>
-            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.lawer }}</p>
-          </div>
-          <div class="col-md-12 col-sm-12 my-4">
-            <h4 class="text-center">顧問税理士</h4>
-            <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.accountant }}</p>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">代表取締役</h4>
+              <p class="text-center">{{ .Site.Data.about_antcicada.company.CEO }}</p>
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">所在地</h4>
+              {{ range .Site.Data.about_antcicada.company.address }}
+              <p class="my-0 text-center">{{ .text }}</p>
+              {{ end }}
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">設立日</h4>
+              <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.establishment_date }}</p>
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">事業内容</h4>
+              {{ range .Site.Data.about_antcicada.company.services }}
+              <p class="my-0 text-center">{{ .title }}</p>
+              {{ end }}
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">資本金</h4>
+              <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.capital }}</p>
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">取引銀行</h4>
+              <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.main_bank }}</p>
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">顧問弁護士</h4>
+              <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.lawer }}</p>
+            </div>
+            <div class="col-md-12 col-sm-12 my-4">
+              <h4 class="text-center">顧問税理士</h4>
+              <p class="my-0 text-center">{{ .Site.Data.about_antcicada.company.accountant }}</p>
+            </div>
           </div>
         </div>
       </div>

@@ -23,6 +23,7 @@ society:
         - text: "そんな想いを込めて名前をつけました。"
 
 message:
+  image: "images/about_antcicada/message.jpg"
   content:
     - text: "2013年末。僕は幼少期から続けてきた昆虫食の趣味をカミングアウトしました。"
     - text: "あれから6年。"

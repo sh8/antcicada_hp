@@ -46,9 +46,14 @@ name = "ニュース"
 weight = 6
 
 [[menu.main]]
+URL = "question"
+name = "よくあるご質問"
+weight = 7
+
+[[menu.main]]
 URL = "contact"
 name = "お問い合わせ"
-weight = 7
+weight = 8
 
 [[menu.main]]
 URL = "service/restaurant"
@@ -98,29 +103,29 @@ parent = "JOIN EARTHについて"
 name = "会社概要"
 weight = 15
 
-[[menu.main]]
-URL = "antcicada_times/eat"
-parent = "ANTCICADA TIMES"
-name = "食べる"
-weight = 19
-
-[[menu.main]]
-URL = "antcicada_times/hunt"
-parent = "ANTCICADA TIMES"
-name = "獲る"
-weight = 20
-
-[[menu.main]]
-URL = "antcicada_times/learn"
-parent = "ANTCICADA TIMES"
-name = "知る"
-weight = 21
-
-[[menu.main]]
-URL = "antcicada_times/column"
-parent = "ANTCICADA TIMES"
-name = "コラム"
-weight = 22
+# [[menu.main]]
+# URL = "antcicada_times/eat"
+# parent = "ANTCICADA TIMES"
+# name = "食べる"
+# weight = 19
+#
+# [[menu.main]]
+# URL = "antcicada_times/hunt"
+# parent = "ANTCICADA TIMES"
+# name = "獲る"
+# weight = 20
+#
+# [[menu.main]]
+# URL = "antcicada_times/learn"
+# parent = "ANTCICADA TIMES"
+# name = "知る"
+# weight = 21
+#
+# [[menu.main]]
+# URL = "antcicada_times/column"
+# parent = "ANTCICADA TIMES"
+# name = "コラム"
+# weight = 22
 
 # [[menu.main]]
 # URL = "information#news"
@@ -139,7 +144,6 @@ weight = 22
 # parent = "インフォメーション"
 # name = "イベント"
 # weight = 25
-
 
 # default parameters
 [params]

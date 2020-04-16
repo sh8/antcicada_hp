@@ -5,18 +5,6 @@ banner:
 # news
 news:
   enable : true
-  title : "News"
-  item:
-    - title : "ホームページを開設しました！"
-      date: "2020年4月20日"
-    - title : "ホームページを開設しました！"
-      date: "2020年4月20日"
-    - title : "ホームページを開設しました！"
-      date: "2020年4月20日"
-    - title : "ホームページを開設しました！"
-      date: "2020年4月20日"
-    - title : "ホームページを開設しました！"
-      date: "2020年4月20日"
 
 # blog
 service:
@@ -44,20 +32,18 @@ service:
       体験する前と後での変化は人それぞれ。"
   # blog post comes from "content/blog" folder
 
-# andcicada_times
-antcicada_times:
-  enable : true
-  title : "ANTCICADA TIMES"
-  item:
-    - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
-    - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra."
-
 # about_antcicada
 about_antcicada:
   enable : true
   title : "JOIN EARTHについて"
   item:
-    - content: "虫たちをはじめ、この地球は魅力溢れる生き物で溢れています。"
+    - content: "ANTCICADAは、「動物も、植物も、虫も、あらゆることに分けへだてなく向き合える世の中」を目指して、人々の視点を拡げるきっかけを創り続けます。"
+
+# andcicada_times
+antcicada_times:
+  enable : true
+  title : "ANTCICADA TIMES"
+  item:
+    - content: "昆虫食に関する記事やレシピ動画を発信していくWebメディアです。"
+    - content: "虫をはじめ、この地球は個性豊かな生き物たちで溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
-    - content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo orci massa, at cursus velit egestas consectetur. Praesent lobortis dui volutpat erat iaculis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas a dolor sed nulla semper egestas. Nulla posuere ornare est sit amet viverra.s"

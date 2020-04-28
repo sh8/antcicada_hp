@@ -10,7 +10,7 @@
         </div>
         <div class="col-md-12 my-5 d-flex justify-content-center">
           <ul class="news-list">
-            {{range .Site.Data.news.item }}
+            {{range sort .Site.Data.news.item "date" "desc" }}
             <li class="my-3">
               {{ if .url }}
               <a href={{ .url | safeURL }}>

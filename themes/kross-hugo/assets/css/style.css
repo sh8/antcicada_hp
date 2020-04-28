@@ -601,6 +601,8 @@ textarea.form-control {
 
 .news-list-date {
   color: #222 !important;
+  display: inline-block;
+  width: 80px;
   margin-right: 20px;
 }
 

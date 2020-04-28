@@ -601,9 +601,20 @@ textarea.form-control {
 
 .news-list-date {
   color: #222 !important;
-  display: inline-block;
-  width: 80px;
-  margin-right: 20px;
+}
+
+@media(min-width:767px) {
+  .news-list-date {
+    display: inline-block;
+    width: 110px;
+  }
+}
+
+@media(max-width:767px) {
+  .news-list-date {
+    margin-right: 20px;
+    margin-bottom: 5px !important;
+  }
 }
 
 .news-list-title {

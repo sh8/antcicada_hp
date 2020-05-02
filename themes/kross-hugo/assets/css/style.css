@@ -271,7 +271,7 @@ a:hover {
 }
 
 .section-about {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .bg-cover {
@@ -645,8 +645,9 @@ textarea.form-control {
 
 .p-about {
   font-size: 20px;
-  margin: auto;
-  width: 90%;
+  text-align: left;
+  margin-bottom: 0;
+  display: inline-block;
 }
 
 .progress-wrapper {

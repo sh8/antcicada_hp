@@ -26,9 +26,9 @@
             <div class="text-center col-md-12 col-sm-12 my-4">
               <h2>{{ .title }}</h2>
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
             {{ range .content }}
-              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+              <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
             {{ end }}
             </div>
             {{ end }}
@@ -37,9 +37,9 @@
             <div class="col-md-6 offset-md-3 col-sm-12 mt-4">
               <img class="rounded img-top" src="{{ .Site.Data.about_antcicada.message.image | relURL }}" alt="{{ .Site.Data.about_antcicada.message.title }}">
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .Site.Data.about_antcicada.message.content }}
-              <p class="my-2 text-center">{{ .text | safeHTML }}</p>
+              <p class="my-2 text-left d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
               <h2 class="my-4 text-center">{{ .Site.Data.about_antcicada.message.quote }}</h2>
               <h5 class="my-4 text-center">{{ .Site.Data.about_antcicada.message.sign }}</h5>
@@ -53,9 +53,9 @@
             <div class="col-md-6 offset-md-3 col-sm-12">
               <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .description }}
-              <p class="my-0 text-center ">{{ .text | safeHTML }}</p>
+              <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             <hr class="mt-5" />

@@ -22,9 +22,9 @@
         </ul>
         <div class="tab-content">
           <div id="restaurant" class="tab-pane">
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .Site.Data.service.restaurant.short_description }}
-              <p class="text-center my-0">{{ .text | safeHTML }}</p>
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             {{ range .Site.Data.service.restaurant.item }}
@@ -47,10 +47,10 @@
               <p class="my-0 text-center">その他にも様々なメニューを取り揃えております</p>
             </div>
             {{ range .description }}
-            <div class="col-md-10 offset-md-1 col-sm-12">
+            <div class="col-md-10 offset-md-1 col-sm-12 text-center mx-auto">
               <h3 class="text-center my-4">{{ .title }}</h3>
               {{ range .content }}
-              <p class="my-0 text-center ">{{ .text | safeHTML }}</p>
+              <p class="my-0 text-left d-inline-block ">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             {{ end }}
@@ -58,9 +58,9 @@
             {{ end }}
           </div>
           <div id="food" class="tab-pane">
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .Site.Data.service.food.short_description }}
-              <p class="text-center my-0">{{ .text | safeHTML }}</p>
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             {{ range .Site.Data.service.food.item }}
@@ -71,18 +71,18 @@
             <div class="col-md-8 offset-md-2 col-sm-12">
               <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
             {{ range .description }}
-              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+              <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
             {{ end }}
             </div>
             <hr class="mt-5" />
             {{ end }}
           </div>
           <div id="consulting" class="tab-pane">
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .Site.Data.service.consulting.short_description }}
-              <p class="text-center my-0">{{ .text | safeHTML }}</p>
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             <div class="col-md-8 offset-md-2 col-sm-12">
@@ -92,9 +92,9 @@
             <div class="text-center col-md-12 col-sm-12 my-4">
               <h2>{{ .title }}</h2>
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
             {{ range .description }}
-              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+              <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
             {{ end }}
             </div>
             {{ end }}
@@ -113,9 +113,9 @@
             </div>
           </div>
           <div id="education" class="tab-pane">
-            <div class="col-md-10 offset-md-1 col-sm-12 my-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
               {{ range .Site.Data.service.education.short_description }}
-              <p class="text-center my-0">{{ .text | safeHTML }}</p>
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
               {{ end }}
             </div>
             {{ range .Site.Data.service.education.item }}
@@ -125,9 +125,9 @@
             <div class="col-md-6 offset-md-3 col-sm-12">
               <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
             </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 mt-4">
+            <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
             {{ range .description }}
-              <p class="my-0 text-center">{{ .text | safeHTML }}</p>
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
             {{ end }}
             </div>
             {{ end }}

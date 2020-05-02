@@ -193,6 +193,10 @@ a {
   height: 25px;
 }
 
+.card-body {
+  text-align: left;
+}
+
 body {
   background-color: #fff;
   overflow-x: hidden

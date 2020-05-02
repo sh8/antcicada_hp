@@ -30,7 +30,7 @@ message:
 member:
   item:
     - title: "篠原 祐太(地球少年) / 代表取締役CEO"
-      image: "images/about_antcicada/members/shinohara.jpg"
+      image: "images/about_antcicada/members/shinohara.png"
       description:
         - text: "1994年地球生まれ。慶應義塾大学卒。幼少期より地球を愛し、あらゆる野生の恵みを味わう。
         昆虫食歴20年。「ラーメン凪」やミシュラン一つ星「四谷 うえ村」で修行し、食材としての昆虫の可能性を探求。
@@ -38,7 +38,7 @@ member:
         狩猟免許や森林ガイド資格保持。"
 
     - title: "関根 賢人 / 取締役COO"
-      image: "images/about_antcicada/members/sekine.jpg"
+      image: "images/about_antcicada/members/sekine.png"
       description:
         - text: "1994年生まれ。慶應義塾大学卒。
         大学在学中に、コーヒー専門店の開業やアイルランドの農園での生活を経験し、食への探究心が強まる。
@@ -47,7 +47,7 @@ member:
         好きな食材はざざ虫。"
 
     - title: "山口 歩夢 / 取締役CTO"
-      image: "images/about_antcicada/members/yamaguchi.jpg"
+      image: "images/about_antcicada/members/yamaguchi.png"
       description:
         - text: "1995年生まれ。
         東京農業大学大学院卒業。醸造学修士。
@@ -56,7 +56,7 @@ member:
         フルーツブランデー蒸溜所 「Mitosaya薬草園蒸留所」や日本酒ベンチャー「WAKAZE」、酒粕のリユースによる循環型蒸留プラットフォーム「Ethical Spirits」の商品開発にも携わる。"
 
     - title: "豊永 裕美 / 取締役CH(Hunt)O"
-      image: "images/about_antcicada/members/toyonaga.jpg"
+      image: "images/about_antcicada/members/toyonaga.png"
       description:
         - text: "1993年生まれ。
         東京農業大学卒。
@@ -66,7 +66,7 @@ member:
         虫取りを新たな産業にする事を目標としている。"
 
     - title: "白鳥 翔大 / HEAD CHEF"
-      image: "images/about_antcicada/members/shiratori.jpg"
+      image: "images/about_antcicada/members/shiratori.png"
       description:
         - text: "1992年生まれ。
         服部栄養専門学校卒。

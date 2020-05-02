@@ -52,10 +52,10 @@
               <h3>{{ .title }}</h3>
             </div>
             <div class="row">
-              <div class="col-md-4 col-sm-12">
+              <div class="col-lg-3 offset-lg-1 col-6 offset-3">
                 <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
               </div>
-              <div class="col-md-6 col-offset-2 col-sm-12 my-4 text-center mx-auto">
+              <div class="col-lg-6 offset-lg-2 col-12 my-4 text-center mx-auto">
                 {{ range .description }}
                 <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
                 {{ end }}

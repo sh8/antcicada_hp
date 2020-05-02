@@ -15,11 +15,7 @@
     <!--   </div> -->
     <!-- </div> -->
     <div class="layer-bg w-100">
-      <video class="img-overlay-hero" alt="bg-shape" autoplay playsinline muted loop>
-        <source src="{{`images/backgrounds/top_bg.webm` | relURL}}" type="video/webm">
-        <source src="{{`images/backgrounds/top_bg.mp4` | relURL}}" type="video/mp4">
-        <img src="{{`images/backgrounds/top_bg.jpg` | relURL}}">
-      </video>
+      <img class="img-overlay-hero" src="{{`images/backgrounds/top_bg.jpg` | relURL}}" alt="bg-shape">
     </div>
     <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
       {{ range .Site.Params.social }}

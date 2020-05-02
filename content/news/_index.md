@@ -1,3 +1,3 @@
 ---
-title: "JOIN EARTH | ニュース"
+title: "ANTCICADA | NEWS"
 ---

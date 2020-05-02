@@ -1,3 +1,3 @@
 ---
-title: "JOIN EARTH | ANTCICADA TIMES"
+title: "ANTCICADA | ANTCICADA TIMES"
 ---

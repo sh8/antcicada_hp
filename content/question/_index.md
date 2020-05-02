@@ -1,3 +1,3 @@
 ---
-title: "JOIN EARTH | よくあるご質問"
+title: "ANTCICADA | よくあるご質問"
 ---

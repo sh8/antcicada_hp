@@ -1,15 +1,18 @@
-title: "JOIN EARTHについて"
+title: "ANTCICADAについて"
 society:
   item:
-    - title: "ビジョン 目指す社会"
+    - title: "VISION"
+      subtitle: "目指す社会"
       content:
         - text: "動物も、植物も、虫も、あらゆることに分けへだてなく向き合える空気感。"
 
-    - title: "ミッション 存在意義"
+    - title: "MISSION"
+      subtitle: "存在意義"
       content:
         - text: "驚きや発見、悦びに溢れた食体験を通じ、視点を拡げるきっかけを創り続ける。"
 
-    - title: "アプローチ 手段"
+    - title: "APPROACH"
+      subtitle: "手段"
       content:
         - text: "昆虫食への固定概念を払拭し、その魅力を伝える。それだけでなく、虫を始め、地球上に息づく日の目を浴びていない生き物たちの魅力を最大限引き出した提案をしていく。"
 
@@ -73,17 +76,41 @@ member:
         「manfreds」「relae」「koks」で腕を磨き、帰国。趣味は素潜り。"
 
 company:
-  name: "株式会社Join Earth"
-  CEO: "代表者 篠原祐太"
-  address:
-    - text: "〒103-0002"
-    - text: "東京都中央区馬喰町2-4-6"
-  establishment_date: "令和1年11月19日"
-  services:
-    - title: "飲食店の経営及び飲食事業のコンサルティング事業"
-    - title: "食料品の開発、製造及び販売事業"
-    - title: "食育や自然体験などの教育事業の企画、運営"
-  capital: "100万円"
-  main_bank: "三菱UFJ銀行"
-  lawer: "法律事務所ZeLo"
-  accountant: "Seven Rich会計事務所"
+  - title: "会社名"
+    content:
+      - text: "株式会社Join Earth"
+
+  - title: "代表取締役"
+    content:
+      - text: "代表者 篠原祐太"
+
+  - title: "所在地"
+    content:
+      - text: "〒103-0002"
+      - text: "東京都中央区馬喰町2-4-6"
+
+  - title: "設立日"
+    content:
+      - text: "令和1年11月19日"
+
+  - title: "事業内容"
+    content:
+      - text: "飲食店の経営及び飲食事業のコンサルティング事業"
+      - text: "食料品の開発、製造及び販売事業"
+      - text: "食育や自然体験などの教育事業の企画、運営"
+
+  - title: "資本金"
+    content:
+      - text: "100万円"
+
+  - title: "取引銀行"
+    content:
+      - text: "三菱UFJ銀行"
+
+  - title: "顧問弁護士"
+    content:
+      - text: "法律事務所ZeLo"
+
+  - title: "顧問税理士"
+    content:
+      - text: "Seven Rich会計事務所"

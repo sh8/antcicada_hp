@@ -88,6 +88,11 @@
             <div class="col-md-8 offset-md-2 col-sm-12">
               <img class="rounded img-top" src="{{ .Site.Data.service.consulting.image | relURL }}" alt="{{ .Site.Data.service.consulting.title }}">
             </div>
+            <div class="col-md-10 offset-md-1 col-sm-12 my-4 text-center mx-auto">
+              {{ range .Site.Data.service.consulting.description }}
+              <p class="text-left my-0 d-inline-block">{{ .text | safeHTML }}</p>
+              {{ end }}
+            </div>
             {{ range .Site.Data.service.consulting.item }}
             <div class="text-center col-md-12 col-sm-12 my-4">
               <h2>{{ .title }}</h2>

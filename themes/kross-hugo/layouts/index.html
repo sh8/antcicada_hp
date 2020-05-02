@@ -17,9 +17,9 @@
     <div class="layer-bg w-100">
       <img class="img-overlay-hero" src="{{`images/backgrounds/top_bg.jpg` | relURL}}" alt="bg-shape">
     </div>
-    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <ul class="list-unstyled position-relative zindex-1">
       {{ range .Site.Params.social }}
-      <li class="mb-3"><a class="text-dark" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      <li class="mb-3 text-right mr-4"><a class="text-dark sns-icon" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
       {{ end }}
     </ul>
     <!-- /social icon -->
@@ -108,7 +108,7 @@
             {{ .content | markdownify }}<br>
           {{ end }}
           </p>
-          <a class="btn btn-light btn-sm my-4" href="/antcicada_hp{{ .url | safeURL }}">さらにJOIN EARTHについて知る</a>
+          <a class="btn btn-light btn-sm my-4" href="/antcicada_hp{{ .url | safeURL }}">さらにANTCICADAについて知る</a>
         </div>
       </div>
     </div>

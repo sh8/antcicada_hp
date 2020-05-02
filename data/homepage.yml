@@ -39,7 +39,7 @@ service:
 # about_antcicada
 about_antcicada:
   enable : true
-  title : "JOIN EARTHについて"
+  title : "ANTCICADAについて"
   item:
     - content: "ANTCICADAは、「動物も、植物も、虫も、あらゆることに分けへだてなく向き合える世の中」を目指して、人々の視点を拡げるきっかけを創り続けます。"
   url: "/about_antcicada/society"

@@ -30,7 +30,7 @@ restaurant:
       business_hours:
         - text: "金曜日、土曜日"
         - text: "ディナー営業 19:00~ 完全予約制"
-        - text: "* 予約は<a class='text-dark' href='https://example.com'>こちら</a>から"
+        - text: "* 予約は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
       menu:
         - title: "コース料理"
           price: "6,400円"
@@ -48,7 +48,7 @@ restaurant:
       image: "images/services/restaurant/delivery.jpg"
       business_hours:
         - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
-        - text: "* 注文は<a class='text-dark' href='https://example.com'>こちら</a>から"
+        - text: "* 注文は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
       menu:
         - title: "虫たちの惣菜セット（3〜４品）"
           price: "1,640円"
@@ -64,7 +64,7 @@ restaurant:
       image: "images/services/restaurant/catering.jpg"
       business_hours:
         - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
-        - text: "* 注文は<a class='text-dark' href='https://example.com'>こちら</a>から"
+        - text: "* 注文は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
       menu:
         - title: "松"
           price: "116,490円"
@@ -83,7 +83,7 @@ restaurant:
 
 food:
   short_description:
-    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。オンラインストアは<a class='text-dark' href='https://ancient-paper-929.stores.jp'>こちら</a>。"
+    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。オンラインストアは<a class='text-dark underline' href='https://antcicada.stores.jp'>こちら</a>。"
   item:
     - title: "コオロギビール"
       image: "images/services/food/beer.jpg"
@@ -117,7 +117,12 @@ food:
 
 consulting:
   short_description:
-    - text: "昆虫食の企画・商品開発などのお手伝いをします。虫のことなら何でもお任せください。問い合わせは<a class='text-dark' href='https://example.com'>こちら</a>まで。"
+    - text: "昆虫食の企画・商品開発などのお手伝いをします。虫のことなら何でもお任せください。問い合わせは<a class='text-dark underline' href='https://example.com'>こちら</a>まで。"
+  description:
+    - text: "昆虫食の各種情報、知見を共有いたします。
+    また、ANTCICADAとして可能性を感じる昆虫の食材としての可能性や、社会的可能性を叩き台に議論をさせていただきます。
+    お客様ごとの様々なご要望にお応えいたします。
+    虫のことなら何でもお任せください。"
   image: "images/services/consulting/plan.jpg"
   item:
     - title: "昆虫食の企画開発"

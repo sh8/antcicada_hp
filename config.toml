@@ -2,7 +2,7 @@
 baseURL = "https://sh8.github.io/antcicada_hp/"
 languageCode = "ja-jp"
 theme = "kross-hugo"
-title = "JOIN EARTH"
+title = "ANTCICADA"
 
 # css plugins
 [[params.plugins.css]]
@@ -31,13 +31,13 @@ name = "事業内容"
 weight = 2
 
 [[menu.main]]
-URL = "about_antcicada"
-name = "JOIN EARTHについて"
+URL = "antcicada_times"
+name = "ANTCICADA TIMES"
 weight = 3
 
 [[menu.main]]
-URL = "antcicada_times"
-name = "ANTCICADA TIMES"
+URL = "about_antcicada"
+name = "ANTCICADAについて"
 weight = 5
 
 [[menu.main]]
@@ -75,33 +75,45 @@ name = "教育事業"
 weight = 11
 
 [[menu.main]]
+URL = "antcicada_times"
+parent = "ANTCICADA TIMES"
+name = "コラム"
+weight = 12
+
+[[menu.main]]
+URL = "antcicada_times"
+parent = "ANTCICADA TIMES"
+name = "レシピ"
+weight = 13
+
+[[menu.main]]
 URL = "about_antcicada/society"
-parent = "JOIN EARTHについて"
+parent = "ANTCICADAについて"
 name = "目指す社会"
 weight = 12
 
 [[menu.main]]
 URL = "about_antcicada/message"
-parent = "JOIN EARTHについて"
+parent = "ANTCICADAについて"
 name = "代表メッセージ"
 weight = 13
 
 [[menu.main]]
 URL = "about_antcicada/member"
-parent = "JOIN EARTHについて"
+parent = "ANTCICADAについて"
 name = "メンバー紹介"
 weight = 14
 
 [[menu.main]]
 URL = "about_antcicada/company"
-parent = "JOIN EARTHについて"
+parent = "ANTCICADAについて"
 name = "会社概要"
 weight = 15
 
 [[menu.main]]
 URL = "news"
 parent = "インフォメーション"
-name = "ニュース"
+name = "NEWS"
 weight = 16
 
 [[menu.main]]
@@ -121,49 +133,6 @@ URL = "question"
 parent = "インフォメーション"
 name = "よくあるご質問"
 weight = 19
-
-
-# [[menu.main]]
-# URL = "antcicada_times/eat"
-# parent = "ANTCICADA TIMES"
-# name = "食べる"
-# weight = 19
-#
-# [[menu.main]]
-# URL = "antcicada_times/hunt"
-# parent = "ANTCICADA TIMES"
-# name = "獲る"
-# weight = 20
-#
-# [[menu.main]]
-# URL = "antcicada_times/learn"
-# parent = "ANTCICADA TIMES"
-# name = "知る"
-# weight = 21
-#
-# [[menu.main]]
-# URL = "antcicada_times/column"
-# parent = "ANTCICADA TIMES"
-# name = "コラム"
-# weight = 22
-
-# [[menu.main]]
-# URL = "information#news"
-# parent = "インフォメーション"
-# name = "ニュース"
-# weight = 23
-#
-# [[menu.main]]
-# URL = "information#media"
-# parent = "インフォメーション"
-# name = "メディア"
-# weight = 24
-#
-# [[menu.main]]
-# URL = "information#event"
-# parent = "インフォメーション"
-# name = "イベント"
-# weight = 25
 
 # default parameters
 [params]

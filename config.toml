@@ -41,14 +41,14 @@ name = "ANTCICADAについて"
 weight = 5
 
 [[menu.main]]
-URL = ""
-name = "インフォメーション"
+URL = "https://antcicada.stores.jp/"
+name = "オンラインストア"
 weight = 6
 
 [[menu.main]]
-URL = "contact"
-name = "お問い合わせ"
-weight = 8
+URL = ""
+name = "インフォメーション"
+weight = 7
 
 [[menu.main]]
 URL = "service/restaurant"
@@ -117,12 +117,6 @@ name = "NEWS"
 weight = 16
 
 [[menu.main]]
-URL = "https://antcicada.stores.jp/"
-parent = "インフォメーション"
-name = "オンラインストア"
-weight = 17
-
-[[menu.main]]
 URL = "https://www.hotpepper.jp/strJ001245106/"
 parent = "インフォメーション"
 name = "店舗情報/予約"
@@ -133,6 +127,12 @@ URL = "question"
 parent = "インフォメーション"
 name = "よくあるご質問"
 weight = 19
+
+[[menu.main]]
+URL = "contact"
+parent = "インフォメーション"
+name = "お問い合わせ"
+weight = 20
 
 # default parameters
 [params]

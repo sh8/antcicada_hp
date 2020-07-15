@@ -4,17 +4,12 @@ society:
     - title: "VISION"
       subtitle: "目指す社会"
       content:
-        - text: "動物も、植物も、虫も、あらゆることに分けへだてなく向き合える空気感。"
+        - text: "動物も、植物も、虫も、人も、分けへだてなく向き合える社会。"
 
     - title: "MISSION"
       subtitle: "存在意義"
       content:
-        - text: "驚きや発見、悦びに溢れた食体験を通じ、視点を拡げるきっかけを創り続ける。"
-
-    - title: "APPROACH"
-      subtitle: "手段"
-      content:
-        - text: "昆虫食への固定概念を払拭し、その魅力を伝える。それだけでなく、虫を始め、地球上に息づく日の目を浴びていない生き物たちの魅力を最大限引き出した提案をしていく。"
+        - text: "驚きや発見、悦びに溢れた食体験を通じ、固定概念を払拭し、視点を拡げるきっかけを創り続けます。"
 
     - title: "ANTCICADAとは"
       content:
@@ -29,7 +24,7 @@ message:
 
 member:
   item:
-    - title: "篠原 祐太(地球少年) / 代表取締役CEO"
+    - title: "篠原 祐太(地球少年)"
       image: "images/about_antcicada/members/shinohara.png"
       description:
         - text: "1994年地球生まれ。慶應義塾大学卒。幼少期より地球を愛し、あらゆる野生の恵みを味わう。
@@ -37,7 +32,7 @@ member:
         現在は、数千匹の生き物と同棲しながら、虫料理開発、ワークショップ、執筆、講演と幅広く活動。
         狩猟免許や森林ガイド資格保持。"
 
-    - title: "関根 賢人 / 取締役COO"
+    - title: "関根 賢人"
       image: "images/about_antcicada/members/sekine.png"
       description:
         - text: "1994年生まれ。慶應義塾大学卒。
@@ -46,7 +41,7 @@ member:
         これまでに世界40カ国以上を訪れ、様々な食材の可能性に触れてきた。
         好きな食材はざざ虫。"
 
-    - title: "山口 歩夢 / 取締役CTO"
+    - title: "山口 歩夢"
       image: "images/about_antcicada/members/yamaguchi.png"
       description:
         - text: "1995年生まれ。
@@ -55,7 +50,7 @@ member:
         発酵や食についての豊富な知見をもち、ANTCICADAでは製品開発やドリンクの選定を行う。
         フルーツブランデー蒸溜所 「Mitosaya薬草園蒸留所」や日本酒ベンチャー「WAKAZE」、酒粕のリユースによる循環型蒸留プラットフォーム「Ethical Spirits」の商品開発にも携わる。"
 
-    - title: "豊永 裕美 / 取締役CH(Hunt)O"
+    - title: "豊永 裕美"
       image: "images/about_antcicada/members/toyonaga.png"
       description:
         - text: "1993年生まれ。
@@ -65,7 +60,7 @@ member:
         一次産業への関心が強く、ANTCICADAでは虫をはじめとした食材の調達や、ケータリング業務を担当している。
         虫取りを新たな産業にする事を目標としている。"
 
-    - title: "白鳥 翔大 / HEAD CHEF"
+    - title: "白鳥 翔大"
       image: "images/about_antcicada/members/shiratori.png"
       description:
         - text: "1992年生まれ。
@@ -82,7 +77,7 @@ company:
 
   - title: "代表取締役"
     content:
-      - text: "代表者 篠原祐太"
+      - text: "篠原祐太"
 
   - title: "所在地"
     content:
@@ -113,4 +108,4 @@ company:
 
   - title: "顧問税理士"
     content:
-      - text: "Seven Rich会計事務所"
+      - text: "小川公認会計士事務所"

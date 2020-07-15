@@ -43,22 +43,6 @@ restaurant:
           content:
             - text: "旬の虫を始め、野草やジビエ、外来生物など、日の目を浴びていない生き物たちの魅力をお届けします。"
 
-    - title: "デリバリー"
-      short_description: "虫を使ったお料理をご家庭にお届けします"
-      image: "images/services/restaurant/delivery.jpg"
-      business_hours:
-        - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
-        - text: "* 注文は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
-      menu:
-        - title: "虫たちの惣菜セット（3〜４品）"
-          price: "1,640円"
-        - title: "昼からおうちで冒険セット (お弁当)"
-          price: "1,164円"
-      description:
-        - title: "デリバリーについて"
-          content:
-            - text: "ANTCICADAの昆虫料理がご家庭で楽しめます。おうちの中で大冒険をしてみませんか。全力で地球の恵みをお届けします。"
-
     - title: "ケータリング"
       short_description: "企業の交流会や友人とのパーティーにて"
       image: "images/services/restaurant/catering.jpg"
@@ -83,7 +67,7 @@ restaurant:
 
 food:
   short_description:
-    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。オンラインストアは<a class='text-dark underline' href='https://antcicada.stores.jp'>こちら</a>。"
+    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。オンラインショップは<a class='text-dark underline' href='https://antcicada.stores.jp'>こちら</a>。"
   item:
     - title: "コオロギビール"
       image: "images/services/food/beer.jpg"

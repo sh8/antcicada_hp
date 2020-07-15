@@ -32,7 +32,7 @@ weight = 2
 
 [[menu.main]]
 URL = "antcicada_times"
-name = "ANTCICADA TIMES"
+name = "MEDIA"
 weight = 3
 
 [[menu.main]]
@@ -42,7 +42,7 @@ weight = 5
 
 [[menu.main]]
 URL = "https://antcicada.stores.jp/"
-name = "オンラインストア"
+name = "オンラインショップ"
 weight = 6
 
 [[menu.main]]
@@ -76,14 +76,14 @@ weight = 11
 
 [[menu.main]]
 URL = "antcicada_times"
-parent = "ANTCICADA TIMES"
+parent = "MEDIA"
 name = "コラム"
 weight = 12
 
 [[menu.main]]
 URL = "antcicada_times"
-parent = "ANTCICADA TIMES"
-name = "レシピ"
+parent = "MEDIA"
+name = "動画"
 weight = 13
 
 [[menu.main]]

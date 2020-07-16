@@ -4,8 +4,9 @@ restaurant:
     - text: "「コオロギラーメン」と「コース料理」を提供する店舗を中心に、ご自宅まで料理をお届けする「デリバリー」や、企業様などでの「ケータリング」も承っております。"
   item:
     - title: "コオロギラーメン"
-      short_description: "コオロギで出汁を取った世界初の一杯"
+      short_description: "コオロギで出汁を取った世界初の一杯です。店舗にて、月、火、日曜日に提供。"
       image: "images/services/restaurant/ramen.jpg"
+      url: "cricket_ramen"
       business_hours:
         - text: "月曜日、火曜日、日曜日"
         - text: "ランチ営業11:00~14:00、ディナー営業17:30~22:00"
@@ -16,58 +17,65 @@ restaurant:
           price: "300円"
         - title: "コオロギビール"
           price: "800円"
-      description:
-        - title: "コオロギラーメンについて"
-          content:
-            - text: "香ばしく力強い味わいのフタホシコオロギと、上品な旨味のヨーロッパイエコオロギ。2種類の国産コオロギをブレンドして出汁を取りました。 一杯にコオロギを約100匹使用します。出汁だけでなく、麺やタレ、油もコオロギで開発し、様々な形でコオロギの魅力を表現した、命を丸ごと頂ける感謝の一杯です。"
-        - title: "コオロギラーメンのこれまで"
-          content:
-            - text: "2015年、「ラーメン凪」との共同開発以来、赤坂サカスや、慶應義塾大学食堂、 日比谷音楽祭など、全国各地の飲食店やイベントにて、提供してきました。フィンランドやエストニアなど海外でも人気を博し、国内外多数のメディアでとりあげられ大反響を博しました。"
+      about:
+        - content: "コオロギで出汁をとったラーメンです。香ばしく力強い味わいのフタホシコオロギと、上品な旨味のヨーロッパイエコオロギ。 2種類の国産コオロギをブレンドして出汁を取りました。 一杯にコオロギを約100匹使用します。"
+          image: "images/services/restaurant/ramen.jpg"
+        - content: "2015年、「ラーメン凪」との共同開発以来、赤坂サカスや、慶應義塾大学食堂、 日比谷音楽祭など、全国各地の飲食店やイベントにて、提供してきました。フィンランドやエストニアなど海外でも人気を博し、国内外多数のメディアでとりあげられ大反響を博しました。"
+          image: "images/services/restaurant/ramen.jpg"
+        - content: "使用するのは、国産の安心安全な食用コオロギたち。
+ANTCICADAでは、徳島県、福島県、群馬県の３つのコオロギ養殖ファームから仕入れを行なっています。
+ケールやカボチャ、すだちなど旬の野菜や果物を食べて育てられた高品質なコオロギたち。食べる餌によって変わる彼らの風味もお楽しみください。"
+          image: "images/services/restaurant/ramen.jpg"
+      history:
+        - content: "2015年、「ラーメン凪」との共同開発以来、赤坂サカスや、慶應義塾大学食堂、 日比谷音楽祭、FOODEX JAPANなど、全国各地の飲食店やイベントにて提供してきました。さらに、フィンランドやエストニアなど海外にも進出し、各地で人気を博しました。また国内外多数のメディアでとりあげれ、大反響をいただいております。"
 
     - title: "コース料理"
-      short_description: "動物も、植物も、虫も、地球の魅力を味わう"
+      short_description: "動物も、植物も、虫も、地球の魅力を味わいます。店舗にて、金、土曜日に提供。"
       image: "images/services/restaurant/course.jpg"
+      url: "tasting_course"
+      about:
+        - content: "昆虫をはじめ、野草やジビエなど、日の目を浴びていない生き物たちの魅力をコース料理で表現。表参道「L'Effervescence」やデンマーク「Relæ」などで修行したシェフの白鳥を中心に、食材としての昆虫の魅力を突き詰め、既存の昆虫食のイメージを一新していきます。またコオロギ醤油など、オリジナルの発酵調味料も積極的に活用して参ります。"
+          image: "images/services/restaurant/course.jpg"
+        - content: "コース料理には厳選したドリンクを合わせます。「Mitosaya薬草園蒸留所」や「WAKAZE」の商品開発にも携わるドリンク担当の山口は各種ドリンクに豊富な知識を持ち、ANTCICADAのコオロギビールやタガメジンに始まり、醸造酒から蒸留酒まで、ジャンルにとらわれない多様な味わいをご用意。魅惑の食体験をぜひ。（ノンアルコールも対応します。）"
+          image: "images/services/restaurant/course.jpg"
+        - content: "提供とともに、食材の背景やストーリーなども紹介していきます。スタッフの説明はもちろん、お客様同士の共感やコミュニケーションも含めたライブ感。肩ひじ張らない秘密基地のような空間で、地球を五感で味わいましょう。"
+          image: "images/services/restaurant/course.jpg"
       business_hours:
-        - text: "金曜日、土曜日"
-        - text: "ディナー営業 19:00~ 完全予約制"
-        - text: "* 予約は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
+        - text: "金曜日　19:00~　予約制"
+        - text: "土曜日　12:00~ / 19:00~　予約制"
+        - text: "* ご予約は<a class='text-dark underline' href='https://example.com'>こちら</a>の「Reservation」から"
       menu:
         - title: "コース料理"
-          price: "6,400円"
+          price: "6,400円 (税別)"
         - title: "アルコールペアリング"
-          price: "3,600円"
+          price: "3,600円 (税別)"
         - title: "ノンアルコールペアリング"
-          price: "3,600円"
-      description:
-        - title: "コースについて"
-          content:
-            - text: "旬の虫を始め、野草やジビエ、外来生物など、日の目を浴びていない生き物たちの魅力をお届けします。"
+          price: "3,600円 (税別)"
 
     - title: "ケータリング"
-      short_description: "企業の交流会や友人とのパーティーにて"
+      short_description: "虫を使ったケータリングをお届けします。企業の交流会や友人とのパーティーにどうぞ。"
       image: "images/services/restaurant/catering.jpg"
-      business_hours:
-        - text: "毎週金曜日、月曜日お届け分の注文を承っております。"
-        - text: "* 注文は<a class='text-dark underline' href='https://example.com'>こちら</a>から"
-      menu:
-        - title: "松"
-          price: "116,490円"
-        - title: "竹"
-          price: "116,490円"
-        - title: "梅"
-          price: "116,490円"
-      description:
-        - title: "ケータリングについて"
-          content:
-            - text: "企業やイベント会場に、昆虫料理のケータリングをお届けします。"
-        - title: "ケータリング事例"
-          content:
-            - text: "株式会社コカコーラ様"
-            - text: "一般財団法人日本財団様"
+      url: "catering"
+      plan:
+        - content: "参加人数、料理品数、会場の雰囲気、などお気軽にご相談ください。お客様に合ったプランをご提案させていただきます。"
+        - content: "（116490円より承っております。116490良い虫食おー！）"
+      examples:
+        - company_name: "Mitosaya薬草園蒸留所 様"
+          image: "images/services/restaurant/catering.jpg"
+        - company_name: "パナソニック 100BANCH 様"
+          image: "images/services/restaurant/catering.jpg"
+        - company_name: "日本財団 様"
+          image: "images/services/restaurant/catering.jpg"
+        - company_name: "VITABON 日本披露会"
+          image: "images/services/restaurant/catering.jpg"
+        - company_name: "ミナガワビレッジ 様"
+          image: "images/services/restaurant/catering.jpg"
+
 
 food:
   short_description:
-    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。オンラインショップは<a class='text-dark underline' href='https://antcicada.stores.jp'>こちら</a>。"
+    - text: "昆虫を身近に楽しめる機会を届けたいという想いから、昆虫を使用した様々な商品を開発してきました。"
+    - text: "オンラインショップは<a class='text-dark underline' href='https://antcicada.stores.jp'>こちら</a>。"
   item:
     - title: "コオロギビール"
       image: "images/services/food/beer.jpg"

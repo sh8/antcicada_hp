@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title-tab-alt position-relative overflow-hidden service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-2">
+        <h1 class="service-title">{{ .Site.Data.service.title }}</h1>
+        <ul class="nav justify-content-center service-nav">
+          <li class="nav-item px-3 active" id="restaurant_link">
+            <a href="{{.Site.BaseURL}}/service/restaurant" class="nav-link">飲食事業</a>
+          </li>
+          <li class="nav-item px-3" id="food_link">
+            <a href="{{.Site.BaseURL}}/service/food" class="nav-link">商品事業</a>
+          </li>
+          <li class="nav-item px-3" id="consulting_link">
+            <a href="{{.Site.BaseURL}}/service/consulting" class="nav-link">コンサルティング事業</a>
+          </li>
+          <li class="nav-item px-3" id="education_link">
+            <a href="{{.Site.BaseURL}}/service/education" class="nav-link">教育事業</a>
+          </li>
+        </ul>
+        <div id="restaurant" class="tab-pane">
+          {{ with index .Site.Data.service.restaurant.item 2}}
+          <div class="col-md-12 col-sm-12 my-4">
+            <h2>{{ .title }}</h2>
+            <p class="text-muted font-secondary ml-1 mb-0">{{ .short_description | safeHTML }}</p>
+          </div>
+          <div class="col-md-6 offset-md-3 col-sm-12">
+            <img class="rounded img-top" src="{{ .image | relURL }}" alt="{{ .title }}">
+          </div>
+          <hr class="mt-5" />
+          <div class="col-md-10 offset-md-1 col-sm-12">
+            <h3 class="text-center my-4">プラン</h3>
+            {{ range .plan }}
+            <p class="my-0 text-center">{{ .content }}</p>
+            {{ end }}
+          </div>
+          <hr class="mt-5" />
+          <div class="row my-4 text-center mx-auto">
+            {{ range .examples }}
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <article class="card shadow">
+                <img class="rounded card-img-top" src="{{.image | relURL}}" alt="{{.title }}">
+                <div class="card-body">
+                  <h4 class="card-title"><a class="text-dark" href="/antcicada_hp/service/restaurant/{{.url | safeURL}}">{{ .company_name }}</a></h4>
+                </div>
+              </article>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+{{ end }}

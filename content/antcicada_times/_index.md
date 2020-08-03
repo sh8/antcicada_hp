@@ -1,3 +1,3 @@
 ---
-title: "ANTCICADA | ANTCICADA TIMES"
+title: "ANTCICADA | MEDIA"
 ---

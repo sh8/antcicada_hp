@@ -117,7 +117,7 @@ name = "NEWS"
 weight = 16
 
 [[menu.main]]
-URL = "https://www.hotpepper.jp/strJ001245106/"
+URL = "https://antcicada.com"
 parent = "インフォメーション"
 name = "店舗情報/予約"
 weight = 17

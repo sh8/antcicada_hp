@@ -47,9 +47,9 @@ about_antcicada:
 # antcicada_times
 antcicada_times:
   enable : true
-  title : "ANTCICADA TIMES"
+  title : "MEDIA"
   item:
-    - content: "昆虫食に関する記事やレシピ動画を発信していくWebメディアです。"
+    - content: "昆虫食に関する記事やレシピ動画を発信していくWebメディアを運営しています。"
     - content: "虫をはじめ、この地球は個性豊かな生き物たちで溢れています。"
     - content: "ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
   url: "/antcicada_times"

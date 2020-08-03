@@ -1,7 +1,7 @@
 item:
-  - title: "ANTCICADA TIMESについて"
+  - title: "MEDIA"
     content:
-      - text: "「ANTCICADA TIMES」は、昆虫食に関する記事やレシピ動画を発信していくWebメディアです。
+      - text: "昆虫食に関する記事やレシピ動画を発信していくWebメディアです。
       虫をはじめ、この地球は個性豊かな生き物たちで溢れています。
       ぜひ虫めがねを持って、彼らの魅力に目を向けてみてくださいね。"
 
@@ -12,20 +12,20 @@ item:
       このコラムを通じて、昆虫食についての理解が深まると同時に、
       ANTCICADAについて、ANTCICADAな人たちについて、もっと身近に感じてもらえたら嬉しいです。"
     item:
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
-        date: "2019/02/07 21:25"
+      - title: "蚕（カイコ）の魅力は、シルクだけではない。  〜その① 蚕沙（サンシャ）の魅力を伝える為に糞闘中！〜"
+        url: "https://note.com/antcicada/n/n2764dce8fce1"
+        image: "images/antcicada_times/column/kaiko.jpg"
+        date: "2020/07/30 12:16"
 
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
-        date: "2019/02/07 21:25"
+      - title: "昆虫食の王道、「佃煮」の再考。"
+        url: "https://note.com/antcicada/n/n3ba5cc609d79"
+        image: "images/antcicada_times/column/tsukudani.jpg"
+        date: "2020/05/12 19:11"
 
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
-        date: "2019/02/07 21:25"
+      - title: "昆虫食や地球の魅力を探究するチーム「ANTCICADA」です。"
+        url: "https://note.com/antcicada/n/nbfed14e1bbe6"
+        image: "images/antcicada_times/column/team_antcicada.jpg"
+        date: "2019/05/11 22:23"
     url: "https://note.com/antcicada"
 
   - title: "動画"
@@ -34,18 +34,23 @@ item:
       日々、虫をはじめ地球上のあらゆる生き物たちと向き合っているANTCICADAだからこそ作れる料理。
       これを機に、虫や身の回りの景色への視点がちょっと拡がっていくかもしれません。"
     item:
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
+      - title: "ANTCICADA(アントシカダ) PV"
+        url: "https://www.youtube.com/watch?v=vHgMXm3k2V4"
+        image: "images/antcicada_times/video/pv.jpg"
+        date: "2019/07/15"
+
+      - title: "「おうちでコオロギラーメン」by ANTCICADA"
+        url: "https://www.youtube.com/watch?v=rmd6dObowrU"
+        image: "images/antcicada_times/video/cricket_ramen.jpg"
+        date: "2019/07/13"
+
+      - title: "【コオロギビール / Cricket Dark Ale】by ANTCICADA"
+        url: "https://www.youtube.com/watch?v=3N-alMQlybw"
+        image: "images/antcicada_times/video/cricket_dark_ale.jpg"
         date: "2019/02/07 21:25"
 
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
-        date: "2019/02/07 21:25"
-
-      - title: "【銀行員を3ヶ月で辞め、料理の道へ】就活をゴールにしない生き方。"
-        url: "https://note.com/kentotti18/n/nef19f2bf1ede"
-        image: "images/antcicada_times/column/shukatsu.jpg"
-        date: "2019/02/07 21:25"
+      - title: "【コオロギビールお披露目会】ANTCICADA 自己紹介【2020/02/22】"
+        url: "https://www.youtube.com/watch?v=uigC3gGk--0"
+        image: "images/antcicada_times/video/introduction.jpg"
+        date: "2020/02/22"
     url: "https://www.youtube.com/channel/UCLLtOdJRFT6bogqBdugLJSQ"

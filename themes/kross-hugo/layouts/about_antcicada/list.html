@@ -23,14 +23,18 @@
         <div class="tab-content">
           <div id="society" class="tab-pane">
             {{ range .Site.Data.about_antcicada.society.item }}
-            <div class="text-center col-md-12 col-sm-12 my-4">
-              <h2 class="d-inline">{{ .title }}</h2>
-              <h5 class="d-inline ml-1">{{ .subtitle }}</h5>
-            </div>
-            <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
-            {{ range .content }}
-              <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
-            {{ end }}
+            <div class="mission">
+              <hr class="only-last" />
+              <hr class="only-last" />
+              <div class="text-center col-md-12 col-sm-12 my-4">
+                <h2 class="d-inline">{{ .title }}</h2>
+                <h5 class="d-inline ml-1">{{ .subtitle }}</h5>
+              </div>
+              <div class="col-md-10 offset-md-1 col-sm-12 mt-4 text-center mx-auto">
+              {{ range .content }}
+                <p class="my-0 text-left d-inline-block">{{ .text | safeHTML }}</p>
+              {{ end }}
+              </div>
             </div>
             {{ end }}
           </div>

@@ -61,15 +61,15 @@ ANTCICADAでは、徳島県、福島県、群馬県の３つのコオロギ養�
         - content: "（116490円より承っております。116490良い虫食おー！）"
       examples:
         - company_name: "Mitosaya薬草園蒸留所 様"
-          image: "images/services/restaurant/catering.jpg"
+          image: "images/services/restaurant/CA1.jpg"
         - company_name: "パナソニック 100BANCH 様"
-          image: "images/services/restaurant/catering.jpg"
+          image: "images/services/restaurant/CA3.jpg"
         - company_name: "日本財団 様"
-          image: "images/services/restaurant/catering.jpg"
+          image: "images/services/restaurant/CA4.jpg"
         - company_name: "VITABON 日本披露会"
-          image: "images/services/restaurant/catering.jpg"
+          image: "images/services/restaurant/CA5.jpg"
         - company_name: "ミナガワビレッジ 様"
-          image: "images/services/restaurant/catering.jpg"
+          image: "images/services/restaurant/CA6.jpg"
 
 
 food:
